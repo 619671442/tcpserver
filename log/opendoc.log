@@ -24,3 +24,133 @@
 2023-08-14 07:32:58.025 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:ffddbe30,10.11.21.99
 2023-08-14 07:32:58.026 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelInactive,channelId:ffddbe30,10.11.21.99
 2023-08-14 07:32:58.027 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:ffddbe30
+2023-08-14 07:40:32.671 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 11660 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 07:40:32.691 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 07:40:34.935 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 07:40:34.966 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:40:34.968 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 07:40:34.972 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 07:40:35.326 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 07:40:35.334 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2467 ms
+2023-08-14 07:40:37.280 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:40:37.535 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 07:40:38.161 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 6.496 seconds (JVM running for 8.344)
+2023-08-14 07:40:41.370 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:a66c9b97
+2023-08-14 07:40:41.372 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:a66c9b9710.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:40:57.591 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a66c9b97data=01 03 04 05 00 2B
+2023-08-14 07:40:57.596 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a66c9b97
+2023-08-14 07:41:00.166 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a66c9b97data=01 03 04 05 00 2B
+2023-08-14 07:41:00.168 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a66c9b97
+2023-08-14 07:41:01.012 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a66c9b97data=01 03 04 05 00 2B
+2023-08-14 07:41:01.014 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a66c9b97
+2023-08-14 07:41:01.691 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a66c9b97data=01 03 04 05 00 2B
+2023-08-14 07:41:01.693 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a66c9b97
+2023-08-14 07:41:02.224 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a66c9b97data=01 03 04 05 00 2B
+2023-08-14 07:41:02.225 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a66c9b97
+2023-08-14 07:41:02.853 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a66c9b97data=01 03 04 05 00 2B
+2023-08-14 07:41:02.854 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a66c9b97
+2023-08-14 07:42:02.862 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:a66c9b97,10.11.21.99
+2023-08-14 07:42:02.865 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:a66c9b97,10.11.21.99
+2023-08-14 07:42:02.868 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:a66c9b97
+2023-08-14 07:43:32.026 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 10100 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 07:43:32.038 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 07:43:34.407 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 07:43:34.448 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:43:34.471 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 07:43:34.474 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 07:43:34.765 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 07:43:34.766 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2533 ms
+2023-08-14 07:43:36.397 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:43:36.573 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 07:43:36.964 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.567 seconds (JVM running for 7.147)
+2023-08-14 07:43:39.805 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:f08b092f
+2023-08-14 07:43:39.808 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:f08b092f10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:43:43.350 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=f08b092fdata=01 03 04 05 00 2B
+2023-08-14 07:43:43.357 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:f08b092f
+2023-08-14 07:43:45.128 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=f08b092fdata=01 03 04 05 00 2B
+2023-08-14 07:43:45.129 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:f08b092f
+2023-08-14 07:44:15.519 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 4892 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 07:44:15.541 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 07:44:17.696 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 07:44:17.718 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:44:17.723 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 07:44:17.724 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 07:44:18.082 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 07:44:18.083 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2422 ms
+2023-08-14 07:44:19.573 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:44:19.752 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 07:44:20.168 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.75 seconds (JVM running for 9.635)
+2023-08-14 07:44:21.307 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:a9bfad95
+2023-08-14 07:44:21.309 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:a9bfad9510.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:44:23.527 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a9bfad95data=01 03 04 05 00 2B
+2023-08-14 07:44:23.533 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a9bfad95
+2023-08-14 07:44:27.154 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a9bfad95data=01 03 04 05 00 2B
+2023-08-14 07:44:27.157 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a9bfad95
+2023-08-14 07:44:28.216 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a9bfad95data=01 03 04 05 00 2B
+2023-08-14 07:44:28.218 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a9bfad95
+2023-08-14 07:44:28.956 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=a9bfad95data=01 03 04 05 00 2B
+2023-08-14 07:44:28.958 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:a9bfad95
+2023-08-14 07:44:47.825 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 13604 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 07:44:47.849 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 07:44:50.319 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 07:44:50.392 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:44:50.429 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 07:44:50.430 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 07:44:50.697 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 07:44:50.698 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2763 ms
+2023-08-14 07:44:52.366 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:44:52.569 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 07:44:52.970 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 6.874 seconds (JVM running for 10.061)
+2023-08-14 07:44:55.126 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:c9f068a1
+2023-08-14 07:44:55.127 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:c9f068a110.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:44:56.816 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=c9f068a1data=01 03 04 05 00 2B
+2023-08-14 07:44:56.819 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:c9f068a1
+2023-08-14 07:44:58.034 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=c9f068a1data=01 03 04 05 00 2B
+2023-08-14 07:44:58.036 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:c9f068a1
+2023-08-14 07:45:55.117 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:c9f068a1,10.11.21.99
+2023-08-14 07:45:55.119 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:c9f068a1,10.11.21.99
+2023-08-14 07:45:55.120 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:c9f068a1
+2023-08-14 07:47:04.220 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 13736 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 07:47:04.230 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 07:47:06.170 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 07:47:06.209 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:47:06.278 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 07:47:06.287 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 07:47:06.545 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 07:47:06.546 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2194 ms
+2023-08-14 07:47:08.096 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:47:08.242 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 07:47:08.677 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.387 seconds (JVM running for 8.138)
+2023-08-14 07:47:13.104 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:e3e71308
+2023-08-14 07:47:13.106 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:e3e7130810.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:47:14.566 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:e3e71308,java.lang.ClassCastException: class io.netty.buffer.PooledUnsafeDirectByteBuf cannot be cast to class java.lang.String (io.netty.buffer.PooledUnsafeDirectByteBuf is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+2023-08-14 07:47:14.567 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e3e71308
+2023-08-14 07:47:16.953 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:e3e71308,java.lang.ClassCastException: class io.netty.buffer.PooledUnsafeDirectByteBuf cannot be cast to class java.lang.String (io.netty.buffer.PooledUnsafeDirectByteBuf is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+2023-08-14 07:47:16.954 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e3e71308
+2023-08-14 07:47:17.827 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:e3e71308,java.lang.ClassCastException: class io.netty.buffer.PooledUnsafeDirectByteBuf cannot be cast to class java.lang.String (io.netty.buffer.PooledUnsafeDirectByteBuf is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+2023-08-14 07:47:17.829 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e3e71308
+2023-08-14 07:47:18.374 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:e3e71308,java.lang.ClassCastException: class io.netty.buffer.PooledUnsafeDirectByteBuf cannot be cast to class java.lang.String (io.netty.buffer.PooledUnsafeDirectByteBuf is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+2023-08-14 07:47:18.375 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e3e71308
+2023-08-14 07:47:18.934 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:e3e71308,java.lang.ClassCastException: class io.netty.buffer.PooledUnsafeDirectByteBuf cannot be cast to class java.lang.String (io.netty.buffer.PooledUnsafeDirectByteBuf is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+2023-08-14 07:47:18.935 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e3e71308
+2023-08-14 07:47:33.720 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 8500 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 07:47:33.730 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 07:47:36.052 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 07:47:36.071 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:47:36.072 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 07:47:36.073 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 07:47:36.369 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 07:47:36.377 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2470 ms
+2023-08-14 07:47:37.879 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 07:47:38.031 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 07:47:38.470 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.688 seconds (JVM running for 8.556)
+2023-08-14 07:47:40.276 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:bffe9d45
+2023-08-14 07:47:40.277 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:bffe9d4510.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:47:41.820 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=bffe9d45data=01 03 04 05 00 2B
+2023-08-14 07:47:41.824 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bffe9d45
+2023-08-14 07:47:42.626 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=bffe9d45data=01 03 04 05 00 2B
+2023-08-14 07:47:42.628 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bffe9d45
+2023-08-14 07:47:43.318 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=bffe9d45data=01 03 04 05 00 2B
+2023-08-14 07:47:43.319 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bffe9d45
+2023-08-14 07:47:44.214 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=bffe9d45data=01 03 04 05 00 2B
+2023-08-14 07:47:44.215 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bffe9d45

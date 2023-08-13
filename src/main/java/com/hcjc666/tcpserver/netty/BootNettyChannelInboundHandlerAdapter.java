@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 
 import com.hcjc666.tcpserver.util.LogUtils;
+import com.hcjc666.tcpserver.util.StringUtils;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandler;
@@ -60,7 +61,7 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
             } else {
                 b.setReport_last_data(data);
             }
-            ctx.writeAndFlush(Unpooled.buffer().writeBytes((data).getBytes()));//原样返回
+            ctx.writeAndFlush(Unpooled.buffer().writeBytes(StringUtils.getHexBytes(data)));//原样返回
             // netty的编码已经指定，因此可以不需要再次确认编码
             // ctx.writeAndFlush(Unpooled.buffer().writeBytes(channelId.getBytes(CharsetUtil.UTF_8)));
         } catch (Exception e) {

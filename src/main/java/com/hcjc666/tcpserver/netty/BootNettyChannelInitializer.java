@@ -33,7 +33,7 @@ public class BootNettyChannelInitializer<SocketChannel> extends ChannelInitializ
 
 
         //如果接受16进制数据
-        ch.pipeline().addLast("encoder", new MyEncoder());
+        //ch.pipeline().addLast("encoder", new MyEncoder());//这一块没摸透，未按照预想执行
         ch.pipeline().addLast("decoder", new MyDecoder());
 
         // // ChannelOutboundHandler，依照逆序执行
