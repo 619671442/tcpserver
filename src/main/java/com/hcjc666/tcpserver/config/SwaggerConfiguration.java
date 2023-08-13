@@ -1,4 +1,4 @@
-package com.hcjc666.tcpserver;
+package com.hcjc666.tcpserver.config;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

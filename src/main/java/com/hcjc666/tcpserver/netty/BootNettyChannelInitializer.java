@@ -27,9 +27,14 @@ public class BootNettyChannelInitializer<SocketChannel> extends ChannelInitializ
 
         ch.pipeline().addLast(new IdleStateHandler(READ_TIME_OUT, WRITE_TIME_OUT, ALL_TIME_OUT, TimeUnit.SECONDS));
 
-        // 带编码
-        ch.pipeline().addLast("encoder", new StringEncoder(CharsetUtil.UTF_8));
-        ch.pipeline().addLast("decoder", new StringDecoder(CharsetUtil.UTF_8));
+        // 如果接受字符串 ，带编码
+        //ch.pipeline().addLast("encoder", new StringEncoder(CharsetUtil.UTF_8));
+        //ch.pipeline().addLast("decoder", new StringDecoder(CharsetUtil.UTF_8));
+
+
+        //如果接受16进制数据
+        ch.pipeline().addLast("encoder", new MyEncoder());
+        ch.pipeline().addLast("decoder", new MyDecoder());
 
         // // ChannelOutboundHandler，依照逆序执行
         // ch.pipeline().addLast("encoder", new StringEncoder());
@@ -43,3 +48,6 @@ public class BootNettyChannelInitializer<SocketChannel> extends ChannelInitializ
     }
 
 }
+
+
+

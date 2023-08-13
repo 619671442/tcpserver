@@ -1,0 +1,26 @@
+2023-08-14 07:30:41.124 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:763b2dbf
+2023-08-14 07:30:41.141 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:763b2dbf10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:30:42.651 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:763b2dbf
+2023-08-14 07:30:42.652 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:763b2dbf,10.11.21.99
+2023-08-14 07:30:42.653 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:763b2dbf
+2023-08-14 07:30:45.862 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:ffddbe30
+2023-08-14 07:30:45.865 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelActive,channelId:ffddbe3010.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:30:49.096 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ffddbe30data=01 00 02 03 04
+2023-08-14 07:30:49.098 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ffddbe30
+2023-08-14 07:30:50.119 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ffddbe30data=01 00 02 03 04
+2023-08-14 07:30:50.120 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ffddbe30
+2023-08-14 07:30:50.732 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ffddbe30data=01 00 02 03 04
+2023-08-14 07:30:50.733 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ffddbe30
+2023-08-14 07:30:51.620 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ffddbe30data=01 00 02 03 04
+2023-08-14 07:30:51.622 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ffddbe30
+2023-08-14 07:30:52.266 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ffddbe30data=01 00 02 03 04
+2023-08-14 07:30:52.268 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ffddbe30
+2023-08-14 07:31:00.756 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ffddbe30data=01 00 02 03 04
+2023-08-14 07:31:00.757 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ffddbe30
+2023-08-14 07:31:01.362 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ffddbe30data=01 00 02 03 04
+2023-08-14 07:31:01.364 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ffddbe30
+2023-08-14 07:31:58.022 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ffddbe30data=01 00 02 03 04
+2023-08-14 07:31:58.023 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ffddbe30
+2023-08-14 07:32:58.025 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:ffddbe30,10.11.21.99
+2023-08-14 07:32:58.026 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelInactive,channelId:ffddbe30,10.11.21.99
+2023-08-14 07:32:58.027 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:ffddbe30

@@ -1,0 +1,4 @@
+2023-08-12 16:23:06.947 -ERROR  [nio-8080-exec-1] c.h.t.c.BootNettyController    : getExceptionLogger===日志测试
+2023-08-12 16:23:06.947 -ERROR  [nio-8080-exec-1] c.h.t.c.BootNettyController    : getExceptionLogger===日志测试
+2023-08-12 16:40:21.652 -ERROR  [nio-8080-exec-2] c.h.t.c.BootNettyController    : getExceptionLogger===日志测试
+2023-08-12 16:40:21.652 -ERROR  [nio-8080-exec-2] c.h.t.c.BootNettyController    : getExceptionLogger===日志测试

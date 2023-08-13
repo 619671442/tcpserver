@@ -10,8 +10,11 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 public class BootNettyServer {
 
+    public int port;
+
     public void bind(int port) throws Exception {
 
+            this.port=port;
         /**
          * 配置服务端的NIO线程组
          * NioEventLoopGroup 是用来处理I/O操作的Reactor线程组
