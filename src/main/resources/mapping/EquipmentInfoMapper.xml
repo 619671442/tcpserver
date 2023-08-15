@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.hcjc666.tcpserver.mapper.EquipmentInfoMapper">
-    <select id="getList" resultType="com.hcjc666.tcpserver.entity.EquipmetType">
+    <select id="getList" resultType="com.hcjc666.tcpserver.entity.EquipmentInfo">
         select *
         from main_equipment_info
     </select>
-    <select id="query" resultType="com.hcjc666.tcpserver.entity.EquipmetType">
+    <select id="query" resultType="com.hcjc666.tcpserver.entity.EquipmentInfo">
         select *
         from main_equipment_info
         <if test="fid != null and fid != ''">
             fid=#{fid}
         </if>
+        <if test="equipmentName != null and equipmentName != ''">
+            and equipment_name = #{equipmentName}
+        </if>
+        <if test="equipmentCode != null and equipmentCode != ''">
+            and equipment_code=#{equipmentCode}
+        </if>
+        <if test="dtuImei != null and dtuImei != ''">
+            and dtu_imei=#{dtuImei}
+        </if>
         <if test="equipmentType != null and equipmentType != ''">
-            and equipment_type = #{equipmentType}
+            and equipment_type=#{equipmentType}
         </if>
-        <if test="factory != null and factory != ''">
-            and factory=#{factory}
+        <if test="modbusAddr != null and modbusAddr != ''">
+            and modbus_addr=#{modbusAddr}
         </if>
-        <if test="protocol != null and protocol != ''">
-            and protocol=#{protocol}
-        </if>
-        <if test="handleConfig != null and handleConfig != ''">
-            and handle_config=#{handleConfig}
+        <if test="location != null and location != ''">
+            and location=#{location}
         </if>
         <if test="remark != null and remark != ''">
             and remark=#{remark}
