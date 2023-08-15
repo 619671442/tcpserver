@@ -4,7 +4,15 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.util.Date;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.configurationprocessor.json.JSONObject;
+
 import com.hcjc666.tcpserver.entity.DtuInfo;
+import com.hcjc666.tcpserver.entity.EquipmentInfo;
+import com.hcjc666.tcpserver.entity.EquipmentType;
+import com.hcjc666.tcpserver.service.DtuInfoService;
+import com.hcjc666.tcpserver.service.EquipmentInfoService;
+import com.hcjc666.tcpserver.service.EquipmentTypeService;
 import com.hcjc666.tcpserver.util.LogUtils;
 import com.hcjc666.tcpserver.util.StringUtils;
 
@@ -12,12 +20,27 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import okhttp3.Call;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 /**
  * I/O数据读写处理类
  */
 @ChannelHandler.Sharable
 public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandlerAdapter {
+
+    @Autowired
+    private DtuInfoService dtuInfoService;
+
+    @Autowired
+    private EquipmentInfoService equipmentInfoService;
+
+    @Autowired
+    private EquipmentTypeService equipmentTypeService;
 
     /**
      * 注册时执行
@@ -66,17 +89,46 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
                             .info("--channelRead,HeartBeats,channelId:" + ctx.channel().id().toString() + ",imei:"
                                     + imei);
                 } else {
+                    Date now = new Date();
                     // 是真实的数据
                     cacheChannel.setReportLastData(data);// 更新最后一次收到的数据和时间
-                    cacheChannel.setReportLastDataTime(new Date());
+                    cacheChannel.setReportLastDataTime(now);
                     // 更新数据库
-
+                    DtuInfo temp = new DtuInfo();
+                    temp.setFid(dtu.getFid());
+                    temp.setLastData(data);
+                    temp.setLastDataTime(now);
+                    dtuInfoService.update(temp);
                     // 发送到dtu数据处理服务
+                    // 地址位
+                    String modbusAddr = data.split(" ")[0];// modebus的数据，第一个空格之前是地址位
+                    //// 先查询设备信息
+                    EquipmentInfo etemp = new EquipmentInfo();
+                    etemp.setModbusAddr(modbusAddr);
+                    etemp.setDtuImei(imei);
+                    EquipmentInfo equipmentInfo = equipmentInfoService.query(etemp);
+                    // 设备类型
+                    String type = equipmentInfo.getEquipmentType();
+
+                    // 获取设备类型对应的信息
+                    EquipmentType ttemp = new EquipmentType();
+                    ttemp.setEquipmentType(type);
+
+                    EquipmentType equipmentType = equipmentTypeService.query(ttemp);
+
+                    String url = equipmentType.getHandleConfig();
+                    JSONObject json = new JSONObject();
+                    json.put("data", data);
+                    json.put("time", now.getTime());
+                    json.put("imei", dtu.getImei());
+                    json.put("equipmentName", equipmentInfo.getEquipmentName());
+                    json.put("modbusAddr", modbusAddr);
+                    postData(url, String.valueOf(json));
                 }
             } else {
                 // 未知通道返回
-                // 判断收到的数据是不是已知道的imei串号
-                DtuInfo dtu = DtuInfoCache.get(data);
+                // 判断收到的数据是不是dtu的注册包
+                DtuInfo dtu = DtuInfoCache.getByRegistered(data);
                 if (dtu != null) {// 能获取到dtu信息，说明是dtu串号
                     if (cacheChannel == null) {
                         BootNettyChannel bootNettyChannel = new BootNettyChannel();
@@ -91,7 +143,7 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
                                         + " is first connect ,cache ,imei: " + dtu);
                     }
                 } else {
-                    //一個未知设备返回数据，且不是已经知道的imie数据,打印通道信息和数据
+                    // 一個未知设备返回数据，且收到的数据不是注册包，不是注册包，就无法判断是那个dtu设备返回的数据，无法知道对于地址位的数据是那个设备,所以只打印通道信息和数据
                     LogUtils.getNettyLogger()
                             .info("--channelRead,Unknown data,channelId:" + ctx.channel().id().toString()
                                     + ",remoteAddress：" + ctx.channel().remoteAddress() + ",data:" + data);
@@ -107,6 +159,24 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
             LogUtils.getNettyLogger()
                     .info("--channelRead,channelId:" + ctx.channel().id().toString() + "," + e.toString());
 
+        }
+    }
+
+    // 数据发送到指定url服务去解析保存
+    private void postData(String url, String jsonstr) {
+        OkHttpClient okHttpClient = new OkHttpClient();
+        MediaType JSON = MediaType.parse("application/json; charset=utf-8");
+        RequestBody body = RequestBody.create(JSON, jsonstr);
+        Request request = new Request.Builder()
+                .url(url)
+                .post(body)
+                .build();
+        Call call = okHttpClient.newCall(request);
+        try {
+            Response response = call.execute();
+            System.out.println(response.body().string());
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

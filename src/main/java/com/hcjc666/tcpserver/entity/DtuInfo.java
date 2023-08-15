@@ -1,6 +1,7 @@
 package com.hcjc666.tcpserver.entity;
 
-import java.sql.Date;
+
+import java.util.Date;
 
 import lombok.Data;
 
@@ -24,5 +25,5 @@ public class DtuInfo {
 
     private String heartBeats;
 
-    
+    private String registered;
 }

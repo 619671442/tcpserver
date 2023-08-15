@@ -32,6 +32,9 @@
             <if test="heartBeats != null">
                 heart_beats = #{heartBeats},
             </if>
+            <if test="registered != null">
+                registered = #{registered},
+            </if>
         </set>
         where fid = #{fid}
     </update>

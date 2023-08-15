@@ -4,14 +4,21 @@ import lombok.Data;
 
 @Data
 public class EquipmentInfo {
+
     private long fid;
 
     private String equipmentName;
+
+    private String dtuImei;
 
     private String equipmentCode;
 
     private String equipmentType;
 
     private String modbusAddr;
+    
+    private String location;
+
+    private String remark;
 
 }

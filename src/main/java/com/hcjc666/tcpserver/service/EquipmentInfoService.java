@@ -16,4 +16,7 @@ public class EquipmentInfoService {
     public List<EquipmentInfo> getList() {
         return equipmentInfoMapper.getList();
     }
+    public EquipmentInfo query(EquipmentInfo equipmentInfo) {
+        return equipmentInfoMapper.query(equipmentInfo);
+    }
 }

@@ -9,4 +9,6 @@ import com.hcjc666.tcpserver.entity.EquipmentInfo;
 @Repository
 public interface EquipmentInfoMapper {
    public List<EquipmentInfo> getList();
+
+   public EquipmentInfo query(EquipmentInfo equipmentInfo);
 }
