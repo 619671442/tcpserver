@@ -5,6 +5,7 @@ import java.net.InetSocketAddress;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.configurationprocessor.json.JSONException;
 import org.springframework.boot.configurationprocessor.json.JSONObject;
 
 import com.hcjc666.tcpserver.entity.DtuInfo;
@@ -100,30 +101,7 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
                     temp.setLastDataTime(now);
                     dtuInfoService.update(temp);
                     // 发送到dtu数据处理服务
-                    // 地址位
-                    String modbusAddr = data.split(" ")[0];// modebus的数据，第一个空格之前是地址位
-                    //// 先查询设备信息
-                    EquipmentInfo etemp = new EquipmentInfo();
-                    etemp.setModbusAddr(modbusAddr);
-                    etemp.setDtuImei(imei);
-                    EquipmentInfo equipmentInfo = equipmentInfoService.query(etemp);
-                    // 设备类型
-                    String type = equipmentInfo.getEquipmentType();
-
-                    // 获取设备类型对应的信息
-                    EquipmentType ttemp = new EquipmentType();
-                    ttemp.setEquipmentType(type);
-
-                    EquipmentType equipmentType = equipmentTypeService.query(ttemp);
-
-                    String url = equipmentType.getHandleConfig();
-                    JSONObject json = new JSONObject();
-                    json.put("data", data);
-                    json.put("time", now.getTime());
-                    json.put("imei", dtu.getImei());
-                    json.put("equipmentName", equipmentInfo.getEquipmentName());
-                    json.put("modbusAddr", modbusAddr);
-                    postData(url, String.valueOf(json));
+                    postDataToServer(data, dtu, now);
                 }
             } else {
                 // 未知通道返回
@@ -160,6 +138,39 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
                     .info("--channelRead,channelId:" + ctx.channel().id().toString() + "," + e.toString());
 
         }
+    }
+    /**
+     * 发送数据到数据处理服务
+     * @param data  mmodbus数据
+     * @param imei dtu设备串号
+     * @param dtu   dtu信息
+     * @param now  数据时间
+     * @throws JSONException
+     */
+    private void postDataToServer(String data, DtuInfo dtu, Date now) throws JSONException {
+        // 地址位
+        String modbusAddr = data.split(" ")[0];// modebus的数据，第一个空格之前是地址位
+        //// 先查询设备信息
+        EquipmentInfo etemp = new EquipmentInfo();
+        etemp.setModbusAddr(modbusAddr);
+        etemp.setDtuImei(dtu.getImei());
+        EquipmentInfo equipmentInfo = equipmentInfoService.query(etemp);
+        // 设备类型
+        String type = equipmentInfo.getEquipmentType();
+
+        // 获取设备类型对应的信息
+        EquipmentType ttemp = new EquipmentType();
+        ttemp.setEquipmentType(type);
+
+        EquipmentType equipmentType = equipmentTypeService.query(ttemp);
+        String url = equipmentType.getHandleConfig();
+        JSONObject json = new JSONObject();
+        json.put("data", data);
+        json.put("time", now.getTime());
+        json.put("dtuImei", dtu.getImei());
+        json.put("equipmentName", equipmentInfo.getEquipmentName());
+        json.put("modbusAddr", modbusAddr);
+        postData(url, String.valueOf(json));
     }
 
     // 数据发送到指定url服务去解析保存
