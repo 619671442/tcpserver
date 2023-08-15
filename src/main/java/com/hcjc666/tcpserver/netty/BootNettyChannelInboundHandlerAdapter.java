@@ -56,12 +56,12 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
                 BootNettyChannel bootNettyChannel = new BootNettyChannel();
                 bootNettyChannel.setChannel(ctx.channel());
                 bootNettyChannel.setCode("channelId:" + channelId);
-                bootNettyChannel.setReport_last_data(data);
+                bootNettyChannel.setReportLastData(data);
                 BootNettyChannelCache.save("channelId:" + channelId, bootNettyChannel);
             } else {
-                b.setReport_last_data(data);
+                b.setReportLastData(data);
             }
-            ctx.writeAndFlush(Unpooled.buffer().writeBytes(StringUtils.getHexBytes(data)));//原样返回
+            ctx.writeAndFlush(Unpooled.buffer().writeBytes(StringUtils.getHexBytes(data)));// 原样返回
             // netty的编码已经指定，因此可以不需要再次确认编码
             // ctx.writeAndFlush(Unpooled.buffer().writeBytes(channelId.getBytes(CharsetUtil.UTF_8)));
         } catch (Exception e) {
@@ -105,7 +105,8 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
         String clientIp = inSocket.getAddress().getHostAddress();
         // 此处不能使用ctx.close()，否则客户端始终无法与服务端建立连接
         LogUtils.getNettyLogger()
-                .info("--channelActive,channelId:" + ctx.channel().id().toString() + clientIp + ctx.name());
+                .info("--channelActive,channelId:" + ctx.channel().id().toString() + ",clientIp:" + clientIp
+                        + ctx.name());
     }
 
     /**
@@ -121,7 +122,18 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
         if (bootNettyChannel != null) {
             BootNettyChannelCache.remove("channelId:" + ctx.channel().id().toString());
         }
-        ctx.close(); // 断开连接时，必须关闭，否则造成资源浪费，并发量很大情况下可能造成宕机
+        try {
+            ctx.close(); // 断开连接时，必须关闭，否则造成资源浪费，并发量很大情况下可能造成宕机
+            LogUtils.getNettyLogger()
+                    .info("--channelInactive,channel  [ Id:" + ctx.channel().id().toString() + ",clientIp:" + clientIp
+                            + ctx.name());
+        } catch (Exception e) {
+            LogUtils.getNettyLogger()
+                    .error("--channelInactive  exception,channelId:" + ctx.channel().id().toString() + ",clientIp:"
+                            + clientIp
+                            + ctx.name());
+        }
+
     }
 
     /**
@@ -135,7 +147,7 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
 
         ctx.close();// 超时时断开连接
         LogUtils.getNettyLogger()
-                .info("--userEventTriggered,channelId:" + ctx.channel().id().toString() + "," + clientIp);
+                .info("--userEventTriggered,channelId:" + ctx.channel().id().toString() + ",clientIp:" + clientIp);
     }
 
 }

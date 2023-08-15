@@ -10,7 +10,7 @@ spring:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
 netty:
-  port: 8899
+  port: 20001
   listenEquipmentType: pcd01
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml

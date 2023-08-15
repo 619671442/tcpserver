@@ -18,6 +18,7 @@ import com.hcjc666.tcpserver.netty.BootNettyChannel;
 import com.hcjc666.tcpserver.netty.BootNettyChannelCache;
 import com.hcjc666.tcpserver.service.EquipmentInfoService;
 import com.hcjc666.tcpserver.util.LogUtils;
+import com.hcjc666.tcpserver.util.StringUtils;
 
 import io.netty.buffer.Unpooled;
 
@@ -52,7 +53,7 @@ public class BootNettyController {
             Map<String, String> map = new HashMap<String, String>();
             map.put("code", entry.getKey());
             // map.put("code", entry.getValue().getCode());
-            map.put("report_last_data", entry.getValue().getReport_last_data());
+            map.put("report_last_data", entry.getValue().getReportLastData());
             list.add(map);
         }
         return list;
@@ -63,7 +64,7 @@ public class BootNettyController {
         for (Map.Entry<String, BootNettyChannel> entry : BootNettyChannelCache.channelMapCache.entrySet()) {
             BootNettyChannel bootNettyChannel = entry.getValue();
             if (bootNettyChannel != null && bootNettyChannel.getChannel().isOpen()) {
-                bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(content.getBytes()));
+                bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(StringUtils.getHexBytes(content)));
                 // netty的编码已经指定，因此可以不需要再次确认编码
                 // bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(content.getBytes(CharsetUtil.UTF_8)));
             }
@@ -76,7 +77,7 @@ public class BootNettyController {
             @RequestParam(name = "content", required = true) String content) {
         BootNettyChannel bootNettyChannel = BootNettyChannelCache.get(code);
         if (bootNettyChannel != null && bootNettyChannel.getChannel().isOpen()) {
-            bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(content.getBytes()));
+            bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(StringUtils.getHexBytes(content)));
             // netty的编码已经指定，因此可以不需要再次确认编码
             // bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(content.getBytes(CharsetUtil.UTF_8)));
             return "success";

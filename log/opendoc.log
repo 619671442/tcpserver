@@ -154,3 +154,854 @@
 2023-08-14 07:47:43.319 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bffe9d45
 2023-08-14 07:47:44.214 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=bffe9d45data=01 03 04 05 00 2B
 2023-08-14 07:47:44.215 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bffe9d45
+2023-08-14 07:48:44.222 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:bffe9d45,10.11.21.99
+2023-08-14 07:48:44.224 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:bffe9d45,10.11.21.99
+2023-08-14 07:48:44.225 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:bffe9d45
+2023-08-14 07:49:39.592 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:32d0cda1
+2023-08-14 07:49:39.596 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:32d0cda110.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:49:40.730 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=32d0cda1data=01 03 04 05 00 2B
+2023-08-14 07:49:40.732 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:32d0cda1
+2023-08-14 07:49:41.509 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=32d0cda1data=01 03 04 05 00 2B
+2023-08-14 07:49:41.511 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:32d0cda1
+2023-08-14 07:49:42.187 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=32d0cda1data=01 03 04 05 00 2B
+2023-08-14 07:49:42.189 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:32d0cda1
+2023-08-14 07:49:43.586 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=32d0cda1data=01 03 04 05 00 2B
+2023-08-14 07:49:43.590 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:32d0cda1
+2023-08-14 07:50:43.591 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:32d0cda1,10.11.21.99
+2023-08-14 07:50:43.593 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:32d0cda1,10.11.21.99
+2023-08-14 07:50:43.594 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:32d0cda1
+2023-08-14 07:54:01.192 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:53190333
+2023-08-14 07:54:01.195 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelActive,channelId:5319033310.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 07:54:03.623 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=53190333data=01 03 04 05 00 2B
+2023-08-14 07:54:03.628 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:53190333
+2023-08-14 07:55:03.631 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:53190333,10.11.21.99
+2023-08-14 07:55:03.633 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelInactive,channelId:53190333,10.11.21.99
+2023-08-14 07:55:03.634 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:53190333
+2023-08-14 08:03:49.462 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 08:03:49.462 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2023-08-14 08:03:49.465 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 1 ms
+2023-08-14 08:04:00.622 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:b968c64c
+2023-08-14 08:04:00.624 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelActive,channelId:b968c64c10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 08:04:10.018 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=b968c64cdata=01 03 04 05 00 2B
+2023-08-14 08:04:10.020 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b968c64c
+2023-08-14 08:04:28.576 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b968c64c
+2023-08-14 08:04:28.578 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelInactive,channelId:b968c64c,10.11.21.99
+2023-08-14 08:04:28.579 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:b968c64c
+2023-08-14 08:04:29.116 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:7cae3b25
+2023-08-14 08:04:29.117 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelActive,channelId:7cae3b2510.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 08:04:30.377 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=7cae3b25data=01 03 04 05 00 2B
+2023-08-14 08:04:30.378 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:7cae3b25
+2023-08-14 08:04:31.064 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=7cae3b25data=01 03 04 05 00 2B
+2023-08-14 08:04:31.066 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:7cae3b25
+2023-08-14 08:05:31.068 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:7cae3b25,10.11.21.99
+2023-08-14 08:05:31.069 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelInactive,channelId:7cae3b25,10.11.21.99
+2023-08-14 08:05:31.069 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:7cae3b25
+2023-08-14 08:51:44.698 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 6480 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 08:51:44.711 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 08:51:47.121 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 08:51:47.137 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 08:51:47.138 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 08:51:47.139 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 08:51:47.508 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 08:51:47.509 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2667 ms
+2023-08-14 08:51:49.217 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 08:51:49.442 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 08:51:49.865 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 6.196 seconds (JVM running for 8.336)
+2023-08-14 08:51:56.908 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:e09428ba
+2023-08-14 08:51:56.909 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:e09428ba10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 08:51:59.687 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=e09428badata=01 03 04 05 00 2B
+2023-08-14 08:51:59.693 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e09428ba
+2023-08-14 08:52:05.350 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=e09428badata=01 03 04 05 00 2B
+2023-08-14 08:52:05.351 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e09428ba
+2023-08-14 08:52:10.417 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e09428ba
+2023-08-14 08:52:10.420 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:e09428ba,10.11.21.99
+2023-08-14 08:52:10.422 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:e09428ba
+2023-08-14 08:52:13.027 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:21193997
+2023-08-14 08:52:13.028 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:2119399710.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 08:52:19.795 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=21193997data=01 03 04 05 00 2B
+2023-08-14 08:52:19.797 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:21193997
+2023-08-14 08:52:20.711 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=21193997data=01 03 04 05 00 2B
+2023-08-14 08:52:20.713 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:21193997
+2023-08-14 08:52:21.265 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=21193997data=01 03 04 05 00 2B
+2023-08-14 08:52:21.266 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:21193997
+2023-08-14 08:52:24.628 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:21193997
+2023-08-14 08:52:24.630 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:21193997,10.11.21.99
+2023-08-14 08:52:24.630 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:21193997
+2023-08-14 08:52:31.818 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 9356 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 08:52:31.829 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 08:52:33.793 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 08:52:33.810 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 08:52:33.912 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 08:52:33.918 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 08:52:34.166 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 08:52:34.173 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2111 ms
+2023-08-14 08:52:35.672 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 08:52:35.832 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 08:52:36.254 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.247 seconds (JVM running for 6.713)
+2023-08-14 08:53:08.225 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 12496 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 08:53:08.248 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 08:53:10.376 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 08:53:10.423 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 08:53:10.462 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 08:53:10.463 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 08:53:10.776 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 08:53:10.777 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2324 ms
+2023-08-14 08:53:12.251 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 08:53:12.398 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 08:53:12.706 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.424 seconds (JVM running for 6.831)
+2023-08-14 09:06:53.136 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 3536 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 09:06:53.147 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 09:06:55.170 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 09:06:55.186 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 09:06:55.216 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 09:06:55.220 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 09:06:55.562 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 09:06:55.563 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2206 ms
+2023-08-14 09:06:57.104 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 09:06:57.305 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 09:06:57.747 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.462 seconds (JVM running for 6.884)
+2023-08-14 09:06:58.988 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:aa795e25
+2023-08-14 09:06:58.990 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:aa795e25116.147.12.53BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:06:59.028 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:06:59.071 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:07:17.533 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:07:17.535 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:07:47.916 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:07:47.917 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:08:18.363 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:08:18.364 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:08:48.648 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:08:48.650 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:09:18.981 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:09:18.984 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:09:49.343 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:09:49.344 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:10:19.800 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:10:19.802 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:10:50.078 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:10:50.079 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:11:20.446 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=aa795e25data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:11:20.447 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aa795e25
+2023-08-14 09:11:59.806 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:2f70921b
+2023-08-14 09:11:59.808 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:2f70921b116.147.12.188BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:11:59.815 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:11:59.816 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:12:20.454 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:aa795e25,116.147.12.53
+2023-08-14 09:12:20.456 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:aa795e25,116.147.12.53
+2023-08-14 09:12:20.457 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:aa795e25
+2023-08-14 09:12:30.091 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:12:30.093 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:13:00.443 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:13:00.444 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:13:30.792 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:13:30.793 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:14:01.142 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:14:01.144 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:14:31.502 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:14:31.503 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:15:01.892 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:15:01.894 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:15:32.244 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:15:32.245 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:16:02.602 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:16:02.603 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:16:32.952 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:16:32.953 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:17:03.302 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=2f70921bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:17:03.304 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f70921b
+2023-08-14 09:17:21.542 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:b3496e89
+2023-08-14 09:17:21.543 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelActive,channelId:b3496e89116.147.12.86BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:17:21.551 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:17:21.554 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:17:51.820 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:17:51.822 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:18:03.306 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:2f70921b,116.147.12.188
+2023-08-14 09:18:03.307 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:2f70921b,116.147.12.188
+2023-08-14 09:18:03.308 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:2f70921b
+2023-08-14 09:18:22.180 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:18:22.183 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:18:52.550 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:18:52.551 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:19:22.920 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:19:22.921 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:19:53.270 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:19:53.272 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:20:23.648 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:20:23.650 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:20:53.990 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:20:53.991 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:21:24.360 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:21:24.362 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:21:54.711 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=b3496e89data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:21:54.712 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b3496e89
+2023-08-14 09:22:42.531 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:b88509f7
+2023-08-14 09:22:42.532 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelActive,channelId:b88509f7116.147.11.54BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:22:42.536 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=b88509f7data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:22:42.537 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b88509f7
+2023-08-14 09:22:54.714 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:b3496e89,116.147.12.86
+2023-08-14 09:22:54.717 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelInactive,channelId:b3496e89,116.147.12.86
+2023-08-14 09:22:54.717 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:b3496e89
+2023-08-14 09:23:12.830 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=b88509f7data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:23:12.832 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b88509f7
+2023-08-14 09:23:43.180 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=b88509f7data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:23:43.181 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b88509f7
+2023-08-14 09:24:13.563 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=b88509f7data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:24:13.565 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b88509f7
+2023-08-14 09:24:43.912 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=b88509f7data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:24:43.913 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b88509f7
+2023-08-14 09:25:14.290 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=b88509f7data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:25:14.291 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b88509f7
+2023-08-14 09:25:44.650 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=b88509f7data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:25:44.652 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:b88509f7
+2023-08-14 09:26:25.896 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:90733660
+2023-08-14 09:26:25.897 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelActive,channelId:90733660116.147.12.176BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:26:25.904 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:26:25.904 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:26:44.653 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:b88509f7,116.147.11.54
+2023-08-14 09:26:44.654 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelInactive,channelId:b88509f7,116.147.11.54
+2023-08-14 09:26:44.655 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:b88509f7
+2023-08-14 09:26:56.189 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:26:56.191 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:27:26.541 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:27:26.544 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:27:56.891 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:27:56.893 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:28:27.247 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:28:27.248 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:28:57.624 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:28:57.626 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:29:27.994 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:29:27.996 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:29:50.677 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=FC
+2023-08-14 09:29:50.678 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:30:16.883 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=D0
+2023-08-14 09:30:16.884 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:30:17.046 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=F0
+2023-08-14 09:30:17.050 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:30:30.387 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=41
+2023-08-14 09:30:30.388 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:31:01.103 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:31:01.105 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:31:16.897 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=90733660data=ED
+2023-08-14 09:31:16.899 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:90733660
+2023-08-14 09:31:50.768 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:bd57bae6
+2023-08-14 09:31:50.769 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelActive,channelId:bd57bae6116.147.11.213BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:31:50.772 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : channelId=bd57bae6data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:31:50.773 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bd57bae6
+2023-08-14 09:32:16.900 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:90733660,116.147.12.176
+2023-08-14 09:32:16.902 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelInactive,channelId:90733660,116.147.12.176
+2023-08-14 09:32:16.902 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:90733660
+2023-08-14 09:32:21.006 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : channelId=bd57bae6data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:32:21.007 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bd57bae6
+2023-08-14 09:32:51.356 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : channelId=bd57bae6data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:32:51.358 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bd57bae6
+2023-08-14 09:33:21.706 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : channelId=bd57bae6data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:33:21.708 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:bd57bae6
+2023-08-14 09:34:10.106 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:6d906c35
+2023-08-14 09:34:10.107 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelActive,channelId:6d906c35116.147.11.240BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:34:10.136 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:34:10.139 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:34:21.710 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:bd57bae6,116.147.11.213
+2023-08-14 09:34:21.711 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelInactive,channelId:bd57bae6,116.147.11.213
+2023-08-14 09:34:21.712 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:bd57bae6
+2023-08-14 09:34:40.371 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:34:40.373 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:34:46.915 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=C4
+2023-08-14 09:34:46.916 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:35:01.180 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=FD
+2023-08-14 09:35:01.181 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:35:31.981 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:35:31.982 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:35:46.191 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=CE FF
+2023-08-14 09:35:46.193 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:36:17.522 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:36:17.523 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:36:47.881 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:36:47.883 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:37:18.251 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:37:18.252 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:37:48.620 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:37:48.622 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:38:20.151 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:38:20.152 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:38:49.332 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=6d906c35data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:38:49.333 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:6d906c35
+2023-08-14 09:39:36.959 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:80ee5b5b
+2023-08-14 09:39:36.960 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelActive,channelId:80ee5b5b116.147.11.238BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:39:36.974 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=80ee5b5bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:39:36.979 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:80ee5b5b
+2023-08-14 09:39:47.018 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=80ee5b5bdata=CB
+2023-08-14 09:39:47.019 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:80ee5b5b
+2023-08-14 09:39:49.336 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:6d906c35,116.147.11.240
+2023-08-14 09:39:49.337 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelInactive,channelId:6d906c35,116.147.11.240
+2023-08-14 09:39:49.338 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:6d906c35
+2023-08-14 09:40:14.588 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=80ee5b5bdata=C2
+2023-08-14 09:40:14.588 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:80ee5b5b
+2023-08-14 09:40:35.677 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=80ee5b5bdata=EC
+2023-08-14 09:40:35.679 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:80ee5b5b
+2023-08-14 09:41:06.972 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=80ee5b5bdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:41:06.973 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:80ee5b5b
+2023-08-14 09:41:34.367 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=80ee5b5bdata=FF
+2023-08-14 09:41:34.368 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:80ee5b5b
+2023-08-14 09:41:39.807 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=80ee5b5bdata=70
+2023-08-14 09:41:39.808 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:80ee5b5b
+2023-08-14 09:42:13.428 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:5bd3ecf9
+2023-08-14 09:42:13.429 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:5bd3ecf9116.147.12.176BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:42:13.430 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:42:13.431 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:42:13.729 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=CA
+2023-08-14 09:42:13.730 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:42:21.094 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=D0
+2023-08-14 09:42:21.097 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:42:24.635 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=F6
+2023-08-14 09:42:24.636 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:42:27.636 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=FC
+2023-08-14 09:42:27.638 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:42:27.695 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=C1
+2023-08-14 09:42:27.698 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:42:39.812 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:80ee5b5b,116.147.11.238
+2023-08-14 09:42:39.815 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelInactive,channelId:80ee5b5b,116.147.11.238
+2023-08-14 09:42:39.815 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:80ee5b5b
+2023-08-14 09:42:58.924 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:42:58.925 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:43:22.048 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=F3
+2023-08-14 09:43:22.050 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:43:52.547 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:43:52.548 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:44:22.905 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:44:22.906 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:44:53.256 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:44:53.257 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:45:23.646 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:45:23.647 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:45:54.008 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:45:54.009 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:46:10.067 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5bd3ecf9data=CA
+2023-08-14 09:46:10.068 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5bd3ecf9
+2023-08-14 09:47:01.402 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:db5e778f
+2023-08-14 09:47:01.402 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:db5e778f116.147.12.82BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:47:01.407 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:47:01.409 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:47:10.070 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:5bd3ecf9,116.147.12.176
+2023-08-14 09:47:10.071 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:5bd3ecf9,116.147.12.176
+2023-08-14 09:47:10.072 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:5bd3ecf9
+2023-08-14 09:47:31.706 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:47:31.708 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:48:02.077 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:48:02.078 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:48:32.437 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:48:32.439 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:49:03.624 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:49:03.625 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:49:33.157 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:49:33.158 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:50:03.517 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:50:03.519 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:50:33.887 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:50:33.888 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:51:04.230 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:51:04.246 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:51:34.606 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:51:34.608 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:52:05.034 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=db5e778fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:52:05.036 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:db5e778f
+2023-08-14 09:52:24.142 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:d6d8715d
+2023-08-14 09:52:24.143 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelActive,channelId:d6d8715d116.147.12.153BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:52:24.143 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=d6d8715ddata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:52:24.144 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:d6d8715d
+2023-08-14 09:52:36.115 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:d6d8715d
+2023-08-14 09:52:36.116 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelInactive,channelId:d6d8715d,116.147.12.153
+2023-08-14 09:52:36.117 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:d6d8715d
+2023-08-14 09:53:05.038 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:db5e778f,116.147.12.82
+2023-08-14 09:53:05.039 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:db5e778f,116.147.12.82
+2023-08-14 09:53:05.040 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:db5e778f
+2023-08-14 09:57:21.241 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:8dae5e2e
+2023-08-14 09:57:21.242 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelActive,channelId:8dae5e2e10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:57:26.839 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:8dae5e2e
+2023-08-14 09:57:26.840 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelInactive,channelId:8dae5e2e,10.11.21.99
+2023-08-14 09:57:26.841 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:8dae5e2e
+2023-08-14 09:57:56.106 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:fbe89102
+2023-08-14 09:57:56.106 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelActive,channelId:fbe89102116.147.11.230BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:58:22.679 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 3452 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 09:58:22.697 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 09:58:24.960 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 09:58:24.999 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 09:58:25.001 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 09:58:25.002 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 09:58:25.293 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 09:58:25.294 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2364 ms
+2023-08-14 09:58:27.009 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 09:58:27.267 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 09:58:27.612 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.91 seconds (JVM running for 7.362)
+2023-08-14 09:58:29.656 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:1fabee18
+2023-08-14 09:58:29.657 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:1fabee18116.147.11.230BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:58:42.624 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=1fabee18data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:58:42.629 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:1fabee18
+2023-08-14 09:58:49.288 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:f172920e
+2023-08-14 09:58:49.289 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:f172920e10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 09:59:12.959 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=1fabee18data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:59:12.961 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:1fabee18
+2023-08-14 09:59:21.815 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 09:59:21.819 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2023-08-14 09:59:21.822 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 2 ms
+2023-08-14 09:59:43.274 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=1fabee18data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 09:59:43.277 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:1fabee18
+2023-08-14 09:59:49.293 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:f172920e,10.11.21.99
+2023-08-14 09:59:49.299 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:f172920e,10.11.21.99
+2023-08-14 09:59:49.306 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:f172920e
+2023-08-14 10:00:13.639 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=1fabee18data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:00:13.641 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:1fabee18
+2023-08-14 10:00:43.969 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=1fabee18data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:00:43.970 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:1fabee18
+2023-08-14 10:01:14.305 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=1fabee18data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:01:14.306 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:1fabee18
+2023-08-14 10:01:35.270 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 1192 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 10:01:35.285 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 10:01:37.515 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 10:01:37.550 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 10:01:37.551 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 10:01:37.553 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 10:01:37.868 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 10:01:37.870 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2451 ms
+2023-08-14 10:01:39.604 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 10:01:39.790 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 10:01:40.209 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 6.552 seconds (JVM running for 8.903)
+2023-08-14 10:01:41.049 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:3d6f2c36
+2023-08-14 10:01:41.050 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:3d6f2c36116.147.11.230BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 10:01:45.579 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 10:01:45.579 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2023-08-14 10:01:45.581 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 1 ms
+2023-08-14 10:01:56.832 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3d6f2c36data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:01:56.840 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3d6f2c36
+2023-08-14 10:02:27.125 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3d6f2c36data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:02:27.128 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3d6f2c36
+2023-08-14 10:02:51.607 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:f495b452
+2023-08-14 10:02:51.611 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:f495b45210.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 10:02:57.468 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3d6f2c36data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:02:57.470 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3d6f2c36
+2023-08-14 10:03:18.525 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:40473f21
+2023-08-14 10:03:18.527 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelActive,channelId:40473f21116.147.12.170BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 10:03:29.635 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3d6f2c36
+2023-08-14 10:03:29.636 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --exceptionCaught,channelId:3d6f2c36
+2023-08-14 10:03:29.642 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:3d6f2c36,116.147.11.230
+2023-08-14 10:03:29.643 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:3d6f2c36,116.147.11.230
+2023-08-14 10:03:29.643 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:3d6f2c36
+2023-08-14 10:03:48.818 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:03:48.820 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:03:51.611 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:f495b452,10.11.21.99
+2023-08-14 10:03:51.612 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:f495b452,10.11.21.99
+2023-08-14 10:03:51.613 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:f495b452
+2023-08-14 10:04:19.150 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:04:19.152 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:04:49.511 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:04:49.512 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:05:19.835 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:05:19.836 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:05:23.296 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:273b31fc
+2023-08-14 10:05:23.297 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelActive,channelId:273b31fc10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 10:05:33.833 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01
+2023-08-14 10:05:33.835 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:05:49.871 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:05:49.872 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:05:50.195 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:05:50.196 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:06:18.590 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:18.592 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:19.592 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:19.593 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:20.534 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:06:20.535 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:06:20.595 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:20.600 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:21.628 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:21.629 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:22.629 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:22.630 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:23.631 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:23.632 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:24.633 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:24.635 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:25.635 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:25.636 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:26.637 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:26.638 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:27.638 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:27.639 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:28.639 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:28.640 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:29.641 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:29.642 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:30.644 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:30.645 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:31.646 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:31.647 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:32.647 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:32.649 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:33.650 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:33.651 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:34.652 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:34.653 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:35.653 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:35.654 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:36.654 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:36.657 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:37.657 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:37.658 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:38.658 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:38.659 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:39.660 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:39.661 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:40.661 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:40.663 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:41.662 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:41.664 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:42.664 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:42.665 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:43.666 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:43.671 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:44.668 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:44.670 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:45.671 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:45.672 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:46.673 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:46.674 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:47.367 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:47.368 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:06:50.876 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:06:50.877 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:06:52.635 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:06:52.639 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:07:02.639 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:07:02.641 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:07:12.640 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:07:12.641 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:07:21.214 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:07:21.216 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:07:22.641 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:07:22.643 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:07:32.642 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:07:32.644 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:07:42.643 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:07:42.644 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:07:51.560 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:07:51.563 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:07:52.644 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:07:52.645 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:08:02.645 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:08:02.646 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:08:12.646 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:08:12.647 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:08:21.907 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=40473f21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:08:21.909 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:40473f21
+2023-08-14 10:08:22.648 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:08:22.650 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:08:32.650 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:08:32.651 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:08:41.379 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:78f0d901
+2023-08-14 10:08:41.380 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelActive,channelId:78f0d901116.147.11.148BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 10:08:42.651 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:08:42.652 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:08:52.652 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:08:52.654 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:09:02.654 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:09:02.655 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:09:11.710 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:09:11.711 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:09:12.654 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:09:12.656 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:09:21.910 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:40473f21,116.147.12.170
+2023-08-14 10:09:21.911 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelInactive,channelId:40473f21,116.147.12.170
+2023-08-14 10:09:21.912 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:40473f21
+2023-08-14 10:09:22.658 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:09:22.659 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:09:32.679 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:09:32.680 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:09:42.066 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:09:42.067 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:09:42.680 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:09:42.683 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:09:52.681 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:09:52.683 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:10:02.682 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:10:02.683 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:10:12.424 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:10:12.425 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:10:12.684 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:10:12.685 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:10:22.685 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:10:22.686 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:10:32.686 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:10:32.687 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:10:42.687 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:10:42.689 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:10:42.747 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:10:42.754 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:10:52.688 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:10:52.689 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:11:02.689 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:11:02.690 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:11:12.690 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:11:12.691 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:11:13.106 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:11:13.107 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:11:22.694 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:11:22.695 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:11:32.695 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:11:32.696 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:11:42.696 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:11:42.697 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:11:43.448 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:11:43.449 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:11:52.697 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:11:52.698 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:12:02.698 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:12:02.699 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:12:12.699 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:12:12.700 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:12:13.815 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:12:13.816 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:12:22.700 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:12:22.701 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:12:32.701 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:12:32.702 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:12:42.702 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:12:42.703 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:12:44.212 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:12:44.213 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:12:52.703 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:12:52.704 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:13:02.704 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:13:02.705 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:13:12.705 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:13:12.705 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:13:14.552 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : channelId=78f0d901data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:13:14.553 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:78f0d901
+2023-08-14 10:13:22.706 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:13:22.707 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:13:32.710 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:13:32.711 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:13:42.711 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:13:42.712 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:13:52.712 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:13:52.713 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:14:02.201 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:e5ce8c21
+2023-08-14 10:14:02.202 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelActive,channelId:e5ce8c21116.147.11.145BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 10:14:02.713 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:14:02.714 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:14:12.714 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:14:12.715 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:14:14.556 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:78f0d901,116.147.11.148
+2023-08-14 10:14:14.557 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelInactive,channelId:78f0d901,116.147.11.148
+2023-08-14 10:14:14.558 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:78f0d901
+2023-08-14 10:14:22.714 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:14:22.715 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:14:32.537 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : channelId=e5ce8c21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:14:32.538 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e5ce8c21
+2023-08-14 10:14:32.715 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:14:32.716 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:14:41.089 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=273b31fcdata=01 03 00 00 00 02 C4 0B
+2023-08-14 10:14:41.090 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:273b31fc
+2023-08-14 10:15:02.876 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : channelId=e5ce8c21data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:15:02.877 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e5ce8c21
+2023-08-14 10:15:41.092 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:273b31fc,10.11.21.99
+2023-08-14 10:15:41.093 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelInactive,channelId:273b31fc,10.11.21.99
+2023-08-14 10:15:41.094 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:273b31fc
+2023-08-14 10:15:45.181 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:2f6eb5c3
+2023-08-14 10:15:45.182 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelActive,channelId:2f6eb5c3116.147.12.23BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 10:16:02.879 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:e5ce8c21,116.147.11.145
+2023-08-14 10:16:02.880 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelInactive,channelId:e5ce8c21,116.147.11.145
+2023-08-14 10:16:02.881 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:e5ce8c21
+2023-08-14 10:16:15.503 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:16:15.505 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:16:46.767 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:16:46.770 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:17:16.214 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:17:16.215 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:17:46.541 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:17:46.542 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:18:16.890 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:18:16.892 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:18:47.256 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:18:47.256 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:19:17.599 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:19:17.601 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:19:47.942 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:19:47.943 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:20:18.296 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:20:18.297 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:20:48.629 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : channelId=2f6eb5c3data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:20:48.630 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f6eb5c3
+2023-08-14 10:21:07.351 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:0b371b3f
+2023-08-14 10:21:07.352 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelActive,channelId:0b371b3f116.147.12.1BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 10:21:37.609 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:21:37.610 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 10:21:48.632 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:2f6eb5c3,116.147.12.23
+2023-08-14 10:21:48.633 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelInactive,channelId:2f6eb5c3,116.147.12.23
+2023-08-14 10:21:48.634 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:2f6eb5c3
+2023-08-14 10:22:07.966 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:22:07.968 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 10:22:38.363 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:22:38.364 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 10:23:08.636 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:23:08.637 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 10:23:38.995 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:23:38.996 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 10:24:09.326 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:24:09.327 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 10:24:39.681 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:24:39.682 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 10:25:10.048 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:25:10.049 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 10:25:40.456 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : channelId=0b371b3fdata=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 10:25:40.457 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:0b371b3f
+2023-08-14 11:13:34.433 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 2276 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 11:13:34.445 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 11:13:36.752 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 11:13:36.777 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 11:13:36.786 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 11:13:36.789 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 11:13:37.161 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 11:13:37.162 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2543 ms
+2023-08-14 11:13:38.656 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 11:13:38.876 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 11:13:39.348 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.707 seconds (JVM running for 8.757)
+2023-08-14 11:13:40.164 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:348790c1
+2023-08-14 11:13:40.165 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:348790c1116.147.11.87BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 11:13:40.195 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=38 36 30 30 35 39 30 35 37 38 39 38 39 36 32
+2023-08-14 11:13:40.203 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:13:46.026 - INFO  [nio-8080-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 11:13:46.026 - INFO  [nio-8080-exec-2] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2023-08-14 11:13:46.028 - INFO  [nio-8080-exec-2] o.s.w.s.FrameworkServlet       : Completed initialization in 1 ms
+2023-08-14 11:13:46.498 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=01 03 04 01 83 01 24 0B AC
+2023-08-14 11:13:46.500 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:13:53.971 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=01 03 04 01 84 01 24 BA 6D
+2023-08-14 11:13:53.972 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:14:24.638 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:14:24.640 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:14:54.972 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:14:54.974 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:15:25.320 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:15:25.322 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:15:55.665 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:15:55.668 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:16:26.052 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:16:26.055 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:16:34.796 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=41 54 2B 52 45 42 4F 4F 54 0D 0A
+2023-08-14 11:16:34.798 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:17:05.481 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:17:05.483 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:17:08.118 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=41 54 2B 57 4B 4D 4F 44 3D 4E 45 54 0D 0A
+2023-08-14 11:17:08.119 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:17:34.932 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=41 54 2B 52 45 42 4F 4F 54 0D 0A
+2023-08-14 11:17:34.933 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:17:44.416 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=41 54 2B 45 4E 54 4D 0D 0A
+2023-08-14 11:17:44.417 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:18:15.276 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=348790c1data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:18:15.278 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:18:56.124 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:82c71a15
+2023-08-14 11:18:56.125 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:82c71a15116.147.12.83BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 11:18:56.131 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=38 36 30 30 35 39 30 35 37 38 39 38 39 36 32
+2023-08-14 11:18:56.132 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:19:06.608 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:348790c1
+2023-08-14 11:19:06.609 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --exceptionCaught,channelId:348790c1
+2023-08-14 11:19:06.615 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:348790c1,116.147.11.87
+2023-08-14 11:19:06.616 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:348790c1,116.147.11.87
+2023-08-14 11:19:06.616 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:348790c1
+2023-08-14 11:19:26.374 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:19:26.376 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:19:38.049 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=41 54 2B 57 4B 4D 4F 44 3D 4E 45 54 0D 0A
+2023-08-14 11:19:38.049 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:20:08.864 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:20:08.865 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:20:39.212 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:20:39.213 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:21:09.578 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:21:09.580 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:21:39.912 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:21:39.913 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:22:10.265 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:22:10.267 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:22:40.629 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:22:40.630 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:23:10.957 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:23:10.958 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:23:41.403 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=82c71a15data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 11:23:41.405 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:82c71a15
+2023-08-14 11:24:41.409 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:82c71a15,116.147.12.83
+2023-08-14 11:24:41.410 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:82c71a15,116.147.12.83
+2023-08-14 11:24:41.411 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:82c71a15
+2023-08-14 12:37:21.764 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:ba49d995
+2023-08-14 12:37:21.765 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelActive,channelId:ba49d99562.122.184.88BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 12:37:21.767 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : channelId=ba49d995data=03 00 00 2F 2A E0 00 00 00 00 00 43 6F 6F 6B 69 65 3A 20 6D 73 74 73 68 61 73 68 3D 41 64 6D 69 6E 69 73 74 72 0D 0A 01 00 08 00 03 00 00 00
+2023-08-14 12:37:21.768 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ba49d995
+2023-08-14 12:37:21.998 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:ba49d995
+2023-08-14 12:37:21.999 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --exceptionCaught,channelId:ba49d995
+2023-08-14 12:37:22.002 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:ba49d995,62.122.184.88
+2023-08-14 12:37:22.003 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelInactive,channelId:ba49d995,62.122.184.88
+2023-08-14 12:37:22.003 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:ba49d995
+2023-08-14 12:39:33.258 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:216bfc62
+2023-08-14 12:39:33.260 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelActive,channelId:216bfc6262.122.184.88BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 12:39:33.263 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : channelId=216bfc62data=03 00 00 2F 2A E0 00 00 00 00 00 43 6F 6F 6B 69 65 3A 20 6D 73 74 73 68 61 73 68 3D 41 64 6D 69 6E 69 73 74 72 0D 0A 01 00 08 00 03 00 00 00
+2023-08-14 12:39:33.265 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:216bfc62
+2023-08-14 12:39:33.497 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:216bfc62
+2023-08-14 12:39:33.498 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --exceptionCaught,channelId:216bfc62
+2023-08-14 12:39:33.501 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:216bfc62,62.122.184.88
+2023-08-14 12:39:33.502 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelInactive,channelId:216bfc62,62.122.184.88
+2023-08-14 12:39:33.503 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:216bfc62
+2023-08-14 14:33:41.194 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 7936 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-14 14:33:41.210 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 14:33:43.524 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 14:33:43.544 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-14 14:33:43.549 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-14 14:33:43.585 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-14 14:33:43.992 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-14 14:33:43.996 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2648 ms
+2023-08-14 14:33:45.585 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-14 14:33:45.809 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 14:33:46.250 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 6.425 seconds (JVM running for 12.952)
+2023-08-14 14:34:01.394 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:3034972c
+2023-08-14 14:34:01.396 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:3034972c10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 14:34:02.663 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3034972cdata=01 03 00 00 00 02 C4 0B
+2023-08-14 14:34:02.669 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3034972c
+2023-08-14 14:34:03.807 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3034972cdata=01 03 00 00 00 02 C4 0B
+2023-08-14 14:34:03.808 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3034972c
+2023-08-14 14:34:04.890 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3034972cdata=01 03 00 00 00 02 C4 0B
+2023-08-14 14:34:04.892 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3034972c
+2023-08-14 14:34:05.769 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3034972cdata=01 03 00 00 00 02 C4 0B
+2023-08-14 14:34:05.771 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3034972c
+2023-08-14 14:34:06.379 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3034972cdata=01 03 00 00 00 02 C4 0B
+2023-08-14 14:34:06.380 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3034972c
+2023-08-14 14:34:07.258 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=3034972cdata=01 03 00 00 00 02 C4 0B
+2023-08-14 14:34:07.260 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:3034972c
+2023-08-14 14:34:17.711 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 14:34:17.712 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2023-08-14 14:34:17.715 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 2 ms
+2023-08-14 14:34:18.122 - INFO  [nio-8080-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-14 14:34:18.493 - INFO  [nio-8080-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-14 14:35:07.266 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:3034972c,10.11.21.99
+2023-08-14 14:35:07.267 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:3034972c,10.11.21.99
+2023-08-14 14:35:07.270 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:3034972c
+2023-08-14 15:18:38.486 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:aecfdaf5
+2023-08-14 15:18:38.488 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:aecfdaf5116.147.12.15BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 15:18:38.492 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=aecfdaf5data=38 36 30 30 35 39 30 35 37 38 39 38 39 36 32
+2023-08-14 15:18:38.493 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aecfdaf5
+2023-08-14 15:18:39.354 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=aecfdaf5data=41 54 2B 56 45 52 3F 0D 0A
+2023-08-14 15:18:39.356 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aecfdaf5
+2023-08-14 15:19:09.724 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=aecfdaf5data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 15:19:09.726 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aecfdaf5
+2023-08-14 15:19:40.064 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=aecfdaf5data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 15:19:40.065 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aecfdaf5
+2023-08-14 15:20:10.404 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=aecfdaf5data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 15:20:10.405 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aecfdaf5
+2023-08-14 15:20:40.733 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=aecfdaf5data=77 77 77 2E 75 73 72 2E 63 6E
+2023-08-14 15:20:40.734 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:aecfdaf5
+2023-08-14 15:20:49.850 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:94751d71
+2023-08-14 15:20:49.851 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelActive,channelId:94751d7110.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 15:20:50.040 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:94751d71
+2023-08-14 15:20:50.041 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelInactive,channelId:94751d71,10.11.21.99
+2023-08-14 15:20:50.041 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:94751d71
+2023-08-14 15:20:51.726 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:89a0df24
+2023-08-14 15:20:51.727 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelActive,channelId:89a0df2410.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-14 15:21:05.007 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:89a0df24
+2023-08-14 15:21:05.008 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelInactive,channelId:89a0df24,10.11.21.99
+2023-08-14 15:21:05.009 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:89a0df24
