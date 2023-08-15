@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 public class DtuInfo {
-    private long fid;
+    private String fid;
 
     private String imei;
 

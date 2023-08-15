@@ -1,4 +1,4 @@
-package com.hcjc666.tcpserver.netty;
+package com.hcjc666.tcpserver.cache;
 
 import java.util.Iterator;
 import java.util.Map;
@@ -7,7 +7,9 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 import com.hcjc666.tcpserver.entity.DtuInfo;
-
+/**
+ * 使用
+ */
 public class DtuInfoCache {
     public static volatile Map<String, DtuInfo> dtuinfoMapCache = new ConcurrentHashMap<String, DtuInfo>();
 

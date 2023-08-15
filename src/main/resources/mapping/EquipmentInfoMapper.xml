@@ -8,30 +8,32 @@
     <select id="query" resultType="com.hcjc666.tcpserver.entity.EquipmentInfo">
         select *
         from main_equipment_info
-        <if test="fid != null and fid != ''">
-            fid=#{fid}
-        </if>
-        <if test="equipmentName != null and equipmentName != ''">
-            and equipment_name = #{equipmentName}
-        </if>
-        <if test="equipmentCode != null and equipmentCode != ''">
-            and equipment_code=#{equipmentCode}
-        </if>
-        <if test="dtuImei != null and dtuImei != ''">
-            and dtu_imei=#{dtuImei}
-        </if>
-        <if test="equipmentType != null and equipmentType != ''">
-            and equipment_type=#{equipmentType}
-        </if>
-        <if test="modbusAddr != null and modbusAddr != ''">
-            and modbus_addr=#{modbusAddr}
-        </if>
-        <if test="location != null and location != ''">
-            and location=#{location}
-        </if>
-        <if test="remark != null and remark != ''">
-            and remark=#{remark}
-        </if>
+        <where>
+            <if test="fid != null and fid != ''">
+                and fid=#{fid}
+            </if>
+            <if test="equipmentName != null and equipmentName != ''">
+                and equipment_name = #{equipmentName}
+            </if>
+            <if test="equipmentCode != null and equipmentCode != ''">
+                and equipment_code=#{equipmentCode}
+            </if>
+            <if test="dtuImei != null and dtuImei != ''">
+                and dtu_imei=#{dtuImei}
+            </if>
+            <if test="equipmentType != null and equipmentType != ''">
+                and equipment_type=#{equipmentType}
+            </if>
+            <if test="modbusAddr != null and modbusAddr != ''">
+                and modbus_addr=#{modbusAddr}
+            </if>
+            <if test="location != null and location != ''">
+                and location=#{location}
+            </if>
+            <if test="remark != null and remark != ''">
+                and remark=#{remark}
+            </if>
+        </where>
         limit 0,1 
     </select>
 </mapper> 

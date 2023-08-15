@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class EquipmentType {
 
-    private long fid;
+    private String fid;
 
     private String equipmentType;
 

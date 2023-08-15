@@ -8,24 +8,26 @@
     <select id="query" resultType="com.hcjc666.tcpserver.entity.EquipmentType">
         select *
         from main_equipment_type
-        <if test="fid != null and fid != ''">
-            fid=#{fid}
-        </if>
-        <if test="equipmentType != null and equipmentType != ''">
-            and equipment_type = #{equipmentType}
-        </if>
-        <if test="factory != null and factory != ''">
-            and factory=#{factory}
-        </if>
-        <if test="protocol != null and protocol != ''">
-            and protocol=#{protocol}
-        </if>
-        <if test="handleConfig != null and handleConfig != ''">
-            and handle_config=#{handleConfig}
-        </if>
-        <if test="remark != null and remark != ''">
-            and remark=#{remark}
-        </if>
+        <where>
+            <if test="fid != null and fid != ''">
+                fid=#{fid}
+            </if>
+            <if test="equipmentType != null and equipmentType != ''">
+                and equipment_type = #{equipmentType}
+            </if>
+            <if test="factory != null and factory != ''">
+                and factory=#{factory}
+            </if>
+            <if test="protocol != null and protocol != ''">
+                and protocol=#{protocol}
+            </if>
+            <if test="handleConfig != null and handleConfig != ''">
+                and handle_config=#{handleConfig}
+            </if>
+            <if test="remark != null and remark != ''">
+                and remark=#{remark}
+            </if>
+        </where>
         limit 0,1 
     </select>
 </mapper> 

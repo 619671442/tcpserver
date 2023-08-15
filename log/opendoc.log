@@ -126,3 +126,413 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-08-15 14:48:17.153 - INFO  [           main] valuationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-15 14:49:10.693 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 6780 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 14:49:10.711 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 14:49:13.172 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 14:49:13.224 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 14:49:13.228 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 14:49:13.268 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 14:49:13.622 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 14:49:13.623 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2757 ms
+2023-08-15 14:49:15.453 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 14:49:15.695 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 14:49:16.146 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 6.816 seconds (JVM running for 8.661)
+2023-08-15 14:49:42.856 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:25712a47
+2023-08-15 14:49:42.858 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:25712a47,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 14:49:48.944 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=86 44 52 06 16 22 07 01
+2023-08-15 14:49:59.946 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:86 44 52 06 16 22 07 01
+2023-08-15 14:49:59.952 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:50:09.297 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=86 44 52 06 16 22 07 01
+2023-08-15 14:50:09.298 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:86 44 52 06 16 22 07 01
+2023-08-15 14:50:09.300 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:50:10.151 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=86 44 52 06 16 22 07 01
+2023-08-15 14:50:10.153 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:86 44 52 06 16 22 07 01
+2023-08-15 14:50:10.154 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:50:13.634 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=86 44 52 06 16 22 07 00
+2023-08-15 14:50:13.636 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:86 44 52 06 16 22 07 00
+2023-08-15 14:50:13.637 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:50:16.001 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=86 44 52 06 16 22 07 00
+2023-08-15 14:50:16.002 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:86 44 52 06 16 22 07 00
+2023-08-15 14:50:16.003 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:50:17.030 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=86 44 52 06 16 22 07 00
+2023-08-15 14:50:17.031 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:86 44 52 06 16 22 07 00
+2023-08-15 14:50:17.032 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:50:51.341 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:50:51.344 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:50:51.345 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:51:09.664 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:09.666 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:09.667 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:51:11.134 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:11.136 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:11.137 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:51:14.024 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:14.025 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:14.027 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:51:14.951 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:14.953 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:14.955 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:51:15.910 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:15.912 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:15.913 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:51:16.717 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:16.718 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:16.719 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:51:18.136 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:18.138 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:51:18.139 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:51:27.173 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:52:11.262 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:52:11.266 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:52:14.347 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:52:17.748 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:25712a47,remoteAddress：/10.11.21.99:54157,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:52:17.749 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:25712a47
+2023-08-15 14:52:30.792 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=25712a47data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:53:12.021 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 10024 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 14:53:12.054 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 14:53:14.147 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 14:53:14.160 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 14:53:14.161 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 14:53:14.180 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 14:53:14.461 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 14:53:14.462 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2157 ms
+2023-08-15 14:53:15.988 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 14:53:16.188 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 14:53:16.650 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.333 seconds (JVM running for 6.776)
+2023-08-15 14:53:57.920 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 5860 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 14:53:57.931 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 14:53:59.872 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 14:53:59.926 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 14:53:59.957 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 14:53:59.962 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 14:54:00.269 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 14:54:00.271 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2158 ms
+2023-08-15 14:54:01.914 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 14:54:02.106 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 14:54:02.475 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.78 seconds (JVM running for 7.572)
+2023-08-15 14:54:02.638 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 14:54:03.062 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 14:54:54.787 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 8816 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 14:54:54.804 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 14:54:57.066 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 14:54:57.081 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 14:54:57.115 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 14:54:57.148 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 14:54:57.430 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 14:54:57.431 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2361 ms
+2023-08-15 14:54:58.950 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 14:54:59.113 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 14:54:59.450 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.503 seconds (JVM running for 7.042)
+2023-08-15 14:54:59.733 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 14:55:00.080 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 14:55:17.951 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:e5329500
+2023-08-15 14:55:17.952 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:e5329500,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 14:55:19.978 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=e5329500data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30 01
+2023-08-15 14:55:24.442 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:e5329500,remoteAddress：/10.11.21.99:54238,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30 01
+2023-08-15 14:55:24.447 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e5329500
+2023-08-15 14:55:30.307 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=e5329500data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:55:36.688 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:e5329500 is first connect ,cache ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=null, lastDataTime=null, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 14:55:36.690 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e5329500
+2023-08-15 14:55:49.100 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=e5329500data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:55:49.102 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:e5329500,java.lang.NullPointerException: Cannot invoke "com.hcjc666.tcpserver.service.DtuInfoService.update(com.hcjc666.tcpserver.entity.DtuInfo)" because "this.dtuInfoService" is null
+2023-08-15 14:55:49.103 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:e5329500
+2023-08-15 14:56:36.694 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:e5329500,clientIp:10.11.21.99
+2023-08-15 14:56:36.696 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:e5329500,10.11.21.99
+2023-08-15 14:56:36.697 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channel  [ Id:e5329500,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 14:56:36.698 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:e5329500
+2023-08-15 14:57:06.444 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:968c8e50
+2023-08-15 14:57:06.445 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:968c8e50,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 14:57:07.451 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=968c8e50data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 14:57:07.453 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRead,channelId:968c8e50 is first connect ,cache ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=null, lastDataTime=null, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 14:57:07.454 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:968c8e50
+2023-08-15 14:57:21.207 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=968c8e50data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:22:06.270 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 9164 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 15:22:06.287 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 15:22:08.991 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 15:22:09.057 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 15:22:09.058 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 15:22:09.084 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 15:22:09.374 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 15:22:09.375 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2964 ms
+2023-08-15 15:22:11.015 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 15:22:11.231 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 15:22:11.640 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 7.653 seconds (JVM running for 11.08)
+2023-08-15 15:22:11.967 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 15:22:12.356 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 15:22:20.010 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:39482a28
+2023-08-15 15:22:20.012 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:39482a28,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:22:21.535 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=39482a28data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:22:21.547 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:39482a28 is first connect ,cache ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=null, lastDataTime=null, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 15:22:21.553 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:39482a28
+2023-08-15 15:22:23.615 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=39482a28data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:22:30.313 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:39482a28,org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and dtu_imei='864452061622070'
+         
+         
+         
+            and mod' at line 7
+### The error may exist in file [D:\CODE\tcpserver\target\classes\mapping\EquipmentInfoMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select *         from main_equipment_info                                                     and dtu_imei=?                                           and modbus_addr=?                                       limit 0,1
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and dtu_imei='864452061622070'
+         
+         
+         
+            and mod' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and dtu_imei='864452061622070'
+         
+         
+         
+            and mod' at line 7
+2023-08-15 15:22:30.365 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:39482a28
+2023-08-15 15:23:21.558 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:39482a28,clientIp:10.11.21.99
+2023-08-15 15:23:21.559 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:39482a28,10.11.21.99
+2023-08-15 15:23:21.559 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channel  [ Id:39482a28,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:23:21.560 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:39482a28
+2023-08-15 15:25:59.684 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 10860 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 15:25:59.696 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 15:26:01.775 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 15:26:01.795 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 15:26:01.798 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 15:26:01.804 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 15:26:02.034 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 15:26:02.035 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2191 ms
+2023-08-15 15:26:03.753 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 15:26:03.933 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 15:26:04.301 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.496 seconds (JVM running for 7.136)
+2023-08-15 15:26:04.600 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 15:26:05.070 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 15:26:15.765 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:2f059ec8
+2023-08-15 15:26:15.767 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:2f059ec8,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:26:17.495 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=2f059ec8data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:26:17.514 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:2f059ec8 is first connect ,cache ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30, lastDataTime=Tue Aug 15 15:22:23 CST 2023, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 15:26:17.554 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f059ec8
+2023-08-15 15:26:19.101 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=2f059ec8data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:26:22.854 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:2f059ec8,java.lang.NullPointerException: Cannot invoke "com.hcjc666.tcpserver.entity.EquipmentInfo.getEquipmentType()" because "equipmentInfo" is null
+2023-08-15 15:26:22.856 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f059ec8
+2023-08-15 15:26:40.263 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=2f059ec8data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:27:13.374 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:2f059ec8,java.lang.NullPointerException: Cannot invoke "com.hcjc666.tcpserver.entity.EquipmentInfo.getEquipmentType()" because "equipmentInfo" is null
+2023-08-15 15:27:13.376 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2f059ec8
+2023-08-15 15:27:17.558 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:2f059ec8,clientIp:10.11.21.99
+2023-08-15 15:27:17.561 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:2f059ec8,10.11.21.99
+2023-08-15 15:27:17.562 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channel  [ Id:2f059ec8,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:27:17.562 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:2f059ec8
+2023-08-15 15:30:19.448 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 10324 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 15:30:19.463 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 15:30:21.700 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 15:30:21.718 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 15:30:21.719 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 15:30:21.721 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 15:30:22.079 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 15:30:22.081 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2377 ms
+2023-08-15 15:30:23.925 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 15:30:24.135 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 15:30:24.555 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 6.271 seconds (JVM running for 7.827)
+2023-08-15 15:30:24.653 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 15:30:25.103 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 15:30:31.061 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:5e0eba41
+2023-08-15 15:30:31.075 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:5e0eba41,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:30:32.213 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5e0eba41data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:30:32.229 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:5e0eba41 is first connect ,cache ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30, lastDataTime=Tue Aug 15 15:26:40 CST 2023, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 15:30:32.236 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5e0eba41
+2023-08-15 15:30:34.612 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5e0eba41data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:30:40.344 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --postDataToServer fail,equipmentInfo is not find! imei864452061622070,modbusAddr:,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:30:40.346 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5e0eba41
+2023-08-15 15:31:35.299 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=5e0eba41data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 15:31:55.615 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --postDataToServer fail,equipmentInfo is not find! imei864452061622070,modbusAddr:,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 15:31:58.087 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5e0eba41
+2023-08-15 15:32:58.092 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:5e0eba41,clientIp:10.11.21.99
+2023-08-15 15:32:58.094 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:5e0eba41,10.11.21.99
+2023-08-15 15:32:58.095 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channel  [ Id:5e0eba41,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:32:58.096 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:5e0eba41
+2023-08-15 15:35:31.084 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 8760 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 15:35:31.096 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 15:35:33.515 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 15:35:33.545 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 15:35:33.654 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 15:35:33.706 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 15:35:34.265 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 15:35:34.269 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3024 ms
+2023-08-15 15:35:36.795 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 15:35:37.030 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 15:35:37.530 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 8.09 seconds (JVM running for 11.704)
+2023-08-15 15:35:37.713 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 15:35:38.314 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 15:36:22.576 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:4a03aba5
+2023-08-15 15:36:22.578 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:4a03aba5,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:36:25.661 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=4a03aba5data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 15:36:25.663 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:4a03aba5,remoteAddress：/10.11.21.99:54892,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 15:36:25.668 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:4a03aba5
+2023-08-15 15:36:47.571 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=4a03aba5data=86 44 52 06 16 22 07 00
+2023-08-15 15:36:47.579 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:4a03aba5,remoteAddress：/10.11.21.99:54892,data:86 44 52 06 16 22 07 00
+2023-08-15 15:36:47.580 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:4a03aba5
+2023-08-15 15:36:52.819 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=4a03aba5data=86 44 52 06 16 22 07 00
+2023-08-15 15:36:52.821 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,Unknown data,channelId:4a03aba5,remoteAddress：/10.11.21.99:54892,data:86 44 52 06 16 22 07 00
+2023-08-15 15:36:52.823 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:4a03aba5
+2023-08-15 15:37:03.323 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=4a03aba5data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:37:03.341 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:4a03aba5 is first connect ,cache ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF, lastDataTime=Tue Aug 15 15:31:35 CST 2023, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 15:37:03.378 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:4a03aba5
+2023-08-15 15:37:08.658 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=4a03aba5data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:37:14.932 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --postDataToServer fail,equipmentInfo is not find! imei864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:37:14.934 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:4a03aba5
+2023-08-15 15:37:50.486 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=4a03aba5data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 15:38:38.575 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --postDataToServer fail,equipmentType is not find! imei864452061622070,modbusAddr(16进制):15,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 15:38:38.578 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:4a03aba5
+2023-08-15 15:39:38.584 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:4a03aba5,clientIp:10.11.21.99
+2023-08-15 15:39:38.586 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:4a03aba5,10.11.21.99
+2023-08-15 15:39:38.587 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channel  [ Id:4a03aba5,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:39:38.588 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:4a03aba5
+2023-08-15 15:40:10.372 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:5224ac49
+2023-08-15 15:40:10.373 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelActive,channelId:5224ac49,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:40:21.110 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=5224ac49data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 15:40:21.111 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelRead,channelId:5224ac49 is first connect ,cache ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF, lastDataTime=Tue Aug 15 15:31:35 CST 2023, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 15:40:21.113 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5224ac49
+2023-08-15 15:40:32.326 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : channelId=5224ac49data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 15:40:35.030 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --postDataToServer success! imei864452061622070,modbusAddr:,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 15:40:35.032 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:5224ac49
+2023-08-15 15:41:35.034 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:5224ac49,clientIp:10.11.21.99
+2023-08-15 15:41:35.035 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channelId:5224ac49,10.11.21.99
+2023-08-15 15:41:35.035 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelInactive,channel  [ Id:5224ac49,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 15:41:35.036 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:5224ac49
+2023-08-15 16:04:28.739 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 6488 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 16:04:28.749 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 16:04:31.158 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 16:04:31.177 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:04:31.183 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 16:04:31.192 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 16:04:31.505 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 16:04:31.506 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2615 ms
+2023-08-15 16:04:33.166 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:04:33.364 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 16:04:33.707 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.82 seconds (JVM running for 7.274)
+2023-08-15 16:04:34.068 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 16:04:34.458 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 16:04:45.283 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRegistered,channelId:2bf424a6
+2023-08-15 16:04:45.285 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelActive,channelId:2bf424a6,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:04:46.312 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=2bf424a6data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:04:46.326 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelRead,channelId:2bf424a6 is first connect ,cache ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF, lastDataTime=Tue Aug 15 15:40:32 CST 2023, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 16:04:46.328 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2bf424a6
+2023-08-15 16:04:47.580 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=2bf424a6data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:04:50.860 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --postDataToServer fail,equipmentInfo is not find! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:04:50.862 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2bf424a6
+2023-08-15 16:05:03.505 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : channelId=2bf424a6data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:05:06.774 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --postDataToServer success! imei:864452061622070,modbusAddr(16进制):,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:05:06.775 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelReadComplete,channelId:2bf424a6
+2023-08-15 16:05:45.274 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --userEventTriggered,channelId:2bf424a6,clientIp:10.11.21.99
+2023-08-15 16:05:45.277 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channelId:2bf424a6,10.11.21.99
+2023-08-15 16:05:45.278 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelInactive,channel  [ Id:2bf424a6,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:05:45.280 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : --channelUnregistered,channelId:2bf424a6
+2023-08-15 16:22:30.158 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 9596 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 16:22:30.171 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 16:22:32.425 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 16:22:32.442 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:22:32.470 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 16:22:32.502 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 16:22:32.921 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 16:22:32.922 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2624 ms
+2023-08-15 16:22:35.450 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:22:35.563 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 16:22:35.971 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 7.407 seconds (JVM running for 10.14)
+2023-08-15 16:22:36.134 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 16:22:36.693 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 16:23:55.755 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 10024 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 16:23:55.767 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 16:23:58.068 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 16:23:58.114 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:23:58.118 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 16:23:58.149 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 16:23:58.540 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 16:23:58.541 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2642 ms
+2023-08-15 16:24:05.304 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:24:05.666 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 16:24:06.338 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 12.088 seconds (JVM running for 14.883)
+2023-08-15 16:24:06.889 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 16:24:07.382 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 16:24:14.456 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 注册时执行,channelId:3246431f
+2023-08-15 16:24:14.458 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:3246431f,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:24:19.280 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=3246431f,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:24:19.282 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:3246431f,remoteAddress：/10.11.21.99:55279,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:24:19.285 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:3246431f
+2023-08-15 16:24:19.286 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:3246431f,10.11.21.99
+2023-08-15 16:24:19.287 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:3246431f,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:24:19.288 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 离线时执行,channelId:3246431f
+2023-08-15 16:25:49.009 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 10936 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 16:25:49.034 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 16:25:51.336 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 16:25:51.369 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:25:51.371 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 16:25:51.373 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 16:25:51.715 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 16:25:51.716 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2549 ms
+2023-08-15 16:25:53.182 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:25:53.303 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 16:25:53.734 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.738 seconds (JVM running for 8.498)
+2023-08-15 16:25:53.935 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 16:25:54.409 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 16:25:58.526 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 注册时执行,channelId:84cd9736
+2023-08-15 16:25:58.528 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:84cd9736,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:25:58.571 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:84cd9736
+2023-08-15 16:25:58.594 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:84cd9736,10.11.21.99
+2023-08-15 16:25:58.621 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:84cd9736,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:25:58.622 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 离线时执行,channelId:84cd9736
+2023-08-15 16:26:03.367 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 注册时执行,channelId:dd9f0bc0
+2023-08-15 16:26:03.368 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:dd9f0bc0,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:26:06.598 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=dd9f0bc0,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:26:06.600 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:dd9f0bc0,remoteAddress：/10.11.21.99:55301,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:26:06.605 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:dd9f0bc0
+2023-08-15 16:26:06.605 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:dd9f0bc0,10.11.21.99
+2023-08-15 16:26:06.606 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:dd9f0bc0,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:26:06.607 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 离线时执行,channelId:dd9f0bc0
+2023-08-15 16:26:11.454 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 注册时执行,channelId:8d950c0f
+2023-08-15 16:26:11.455 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:8d950c0f,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:26:12.597 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=8d950c0f,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:26:12.599 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:8d950c0f,remoteAddress：/10.11.21.99:55302,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:26:12.600 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:8d950c0f
+2023-08-15 16:26:12.600 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:8d950c0f,10.11.21.99
+2023-08-15 16:26:12.601 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:8d950c0f,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:26:12.601 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 离线时执行,channelId:8d950c0f
+2023-08-15 16:26:15.764 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 注册时执行,channelId:87285c3a
+2023-08-15 16:26:15.765 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:87285c3a,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:26:16.503 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=87285c3a,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:26:16.504 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:87285c3a,remoteAddress：/10.11.21.99:55303,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:26:16.507 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:87285c3a
+2023-08-15 16:26:16.508 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:87285c3a,10.11.21.99
+2023-08-15 16:26:16.508 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:87285c3a,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:26:16.509 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 离线时执行,channelId:87285c3a
+2023-08-15 16:26:39.369 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 注册时执行,channelId:10ecb3db
+2023-08-15 16:26:39.371 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:10ecb3db,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:26:41.667 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=10ecb3db,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:26:41.673 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:10ecb3db,remoteAddress：/10.11.21.99:55306,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:26:41.675 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:10ecb3db
+2023-08-15 16:26:41.676 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:10ecb3db,10.11.21.99
+2023-08-15 16:26:41.677 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:10ecb3db,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:26:41.678 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 离线时执行,channelId:10ecb3db
+2023-08-15 16:27:00.051 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 注册时执行,channelId:b27181b4
+2023-08-15 16:27:00.052 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:b27181b4,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:27:01.136 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=b27181b4,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:27:01.148 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是已知的dtu设备第一次连接,channelId:b27181b4 ,保存通道 ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF, lastDataTime=Tue Aug 15 16:05:03 CST 2023, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 16:27:01.149 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:b27181b4
+2023-08-15 16:27:22.921 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=b27181b4,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:27:28.998 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,success! imei:864452061622070,modbusAddr(16进制):,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:27:28.998 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:b27181b4
+2023-08-15 16:28:00.056 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 服务端当read超时, 会调用这个方法,channelId:b27181b4,clientIp:10.11.21.99
+2023-08-15 16:28:00.057 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:b27181b4,10.11.21.99
+2023-08-15 16:28:00.058 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:b27181b4,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:00.058 - INFO  [ntLoopGroup-3-6] tyChannelInboundHandlerAdapter : 离线时执行,channelId:b27181b4
+2023-08-15 16:28:09.591 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : 注册时执行,channelId:6fb9607e
+2023-08-15 16:28:09.593 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:6fb9607e,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:10.685 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=6fb9607e,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:28:10.687 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:6fb9607e,remoteAddress：/10.11.21.99:55312,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:28:10.689 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:6fb9607e
+2023-08-15 16:28:10.690 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:6fb9607e,10.11.21.99
+2023-08-15 16:28:10.690 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:6fb9607e,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:10.690 - INFO  [ntLoopGroup-3-7] tyChannelInboundHandlerAdapter : 离线时执行,channelId:6fb9607e
+2023-08-15 16:28:15.482 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 注册时执行,channelId:c9654aae
+2023-08-15 16:28:15.482 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:c9654aae,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:16.281 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=c9654aae,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:28:16.282 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:c9654aae,remoteAddress：/10.11.21.99:55313,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:28:16.283 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:c9654aae
+2023-08-15 16:28:16.283 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:c9654aae,10.11.21.99
+2023-08-15 16:28:16.284 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:c9654aae,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:16.284 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 离线时执行,channelId:c9654aae
