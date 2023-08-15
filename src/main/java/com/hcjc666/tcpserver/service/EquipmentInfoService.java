@@ -11,9 +11,9 @@ import com.hcjc666.tcpserver.mapper.EquipmentInfoMapper;
 @Service
 public class EquipmentInfoService {
     @Autowired
-    private EquipmentInfoMapper equipmentInfMapper;
+    private EquipmentInfoMapper equipmentInfoMapper;
 
     public List<EquipmentInfo> getList() {
-        return equipmentInfMapper.getList();
+        return equipmentInfoMapper.getList();
     }
 }

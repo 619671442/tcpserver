@@ -13,9 +13,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hcjc666.tcpserver.TcpserverApplication;
+import com.hcjc666.tcpserver.entity.DtuInfo;
 import com.hcjc666.tcpserver.entity.EquipmentInfo;
 import com.hcjc666.tcpserver.netty.BootNettyChannel;
 import com.hcjc666.tcpserver.netty.BootNettyChannelCache;
+import com.hcjc666.tcpserver.netty.DtuInfoCache;
+import com.hcjc666.tcpserver.service.DtuInfoService;
 import com.hcjc666.tcpserver.service.EquipmentInfoService;
 import com.hcjc666.tcpserver.util.LogUtils;
 import com.hcjc666.tcpserver.util.StringUtils;
@@ -27,12 +30,28 @@ public class BootNettyController {
 
     @Autowired
     private EquipmentInfoService equipmentInfoService;
+    @Autowired
+    private DtuInfoService dtuInfoService;
 
     @GetMapping(value = "/")
     public String index() {
 
         List<EquipmentInfo> list = equipmentInfoService.getList();
         return "netty is running on " + TcpserverApplication.tcpServer.port + ",list.size:" + list.size();
+    }
+
+    /**
+     * 刷新缓存数据
+     * 
+     * @return
+     */
+    @GetMapping(value = "/ref")
+    public String ref() {
+        List<DtuInfo> list = dtuInfoService.getList();
+        for (DtuInfo dtuInfo : list) {
+            DtuInfoCache.add(dtuInfo.getImei(), dtuInfo);
+        }
+        return "refresh   success! dtu size: " + DtuInfoCache.size();
     }
 
     @GetMapping("/logtest")
@@ -64,7 +83,8 @@ public class BootNettyController {
         for (Map.Entry<String, BootNettyChannel> entry : BootNettyChannelCache.channelMapCache.entrySet()) {
             BootNettyChannel bootNettyChannel = entry.getValue();
             if (bootNettyChannel != null && bootNettyChannel.getChannel().isOpen()) {
-                bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(StringUtils.getHexBytes(content)));
+                bootNettyChannel.getChannel()
+                        .writeAndFlush(Unpooled.buffer().writeBytes(StringUtils.getHexBytes(content)));
                 // netty的编码已经指定，因此可以不需要再次确认编码
                 // bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(content.getBytes(CharsetUtil.UTF_8)));
             }
@@ -73,9 +93,9 @@ public class BootNettyController {
     }
 
     @PostMapping("/tcp/downDataToClient")
-    public String downDataToClient(@RequestParam(name = "code", required = true) String code,
+    public String downDataToClient(@RequestParam(name = "dtuImei", required = true) String dtuImei,
             @RequestParam(name = "content", required = true) String content) {
-        BootNettyChannel bootNettyChannel = BootNettyChannelCache.get(code);
+        BootNettyChannel bootNettyChannel = BootNettyChannelCache.get(dtuImei);
         if (bootNettyChannel != null && bootNettyChannel.getChannel().isOpen()) {
             bootNettyChannel.getChannel().writeAndFlush(Unpooled.buffer().writeBytes(StringUtils.getHexBytes(content)));
             // netty的编码已经指定，因此可以不需要再次确认编码

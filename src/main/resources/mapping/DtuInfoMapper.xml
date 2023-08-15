@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hcjc666.tcpserver.mapper.DtuInfoMapper">
+    <select id="getList" resultType="com.hcjc666.tcpserver.entity.DtuInfo">
+        select *
+        from main_dtu_info
+    </select>
+    <update id="update">
+        update main_dtu_info
+        <set>
+            <if test="imei != null">
+                imei = #{imei},
+            </if>
+            <if test="dtuName != null">
+                dtu_name = #{dtuName},
+            </if>
+            <if test="factory != null">
+                factory = #{factory},
+            </if>
+            <if test="location != null">
+                location = #{location},
+            </if>
+            <if test="remark != remark">
+                remark = #{remark},
+            </if>
+            <if test="lastData != null">
+                last_data = #{lastData},
+            </if>
+            <if test="lastDataTime != null">
+                last_data_time = #{lastDataTime},
+            </if>
+            <if test="heartBeats != null">
+                heart_beats = #{heartBeats},
+            </if>
+        </set>
+        where fid = #{fid}
+    </update>
+    
+
+</mapper> 
