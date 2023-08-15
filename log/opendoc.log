@@ -536,3 +536,119 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-08-15 16:28:16.283 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:c9654aae,10.11.21.99
 2023-08-15 16:28:16.284 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:c9654aae,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
 2023-08-15 16:28:16.284 - INFO  [ntLoopGroup-3-8] tyChannelInboundHandlerAdapter : 离线时执行,channelId:c9654aae
+2023-08-15 16:28:26.382 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting TcpserverApplication using Java 17.0.2 on WIN-FTAVFI9M4SP with PID 6488 (D:\CODE\tcpserver\target\classes started by Administrator in D:\CODE\tcpserver)
+2023-08-15 16:28:26.393 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 16:28:28.346 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2023-08-15 16:28:28.400 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:28:28.432 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2023-08-15 16:28:28.439 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-08-15 16:28:28.767 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2023-08-15 16:28:28.767 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2218 ms
+2023-08-15 16:28:30.370 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2023-08-15 16:28:30.411 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 16:28:31.045 - INFO  [           main] o.s.b.StartupInfoLogger        : Started TcpserverApplication in 5.897 seconds (JVM running for 7.478)
+2023-08-15 16:28:31.292 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2023-08-15 16:28:31.699 - INFO  [         task-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2023-08-15 16:28:37.315 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 注册时执行,channelId:8b25022d
+2023-08-15 16:28:37.318 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:8b25022d,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:38.507 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=8b25022d,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:28:38.509 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:8b25022d,remoteAddress：/10.11.21.99:55329,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:28:38.514 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:8b25022d
+2023-08-15 16:28:38.515 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:8b25022d,10.11.21.99
+2023-08-15 16:28:38.516 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:8b25022d,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:38.517 - INFO  [ntLoopGroup-3-1] tyChannelInboundHandlerAdapter : 离线时执行,channelId:8b25022d
+2023-08-15 16:28:42.228 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 注册时执行,channelId:d1b36f8e
+2023-08-15 16:28:42.229 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:d1b36f8e,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:42.265 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:d1b36f8e
+2023-08-15 16:28:42.275 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:d1b36f8e,10.11.21.99
+2023-08-15 16:28:42.276 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:d1b36f8e,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:42.282 - INFO  [ntLoopGroup-3-2] tyChannelInboundHandlerAdapter : 离线时执行,channelId:d1b36f8e
+2023-08-15 16:28:44.864 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 注册时执行,channelId:6b0273f8
+2023-08-15 16:28:44.866 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:6b0273f8,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:46.399 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=6b0273f8,data=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:28:46.400 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是未知的设备第一次连接,踢掉连接,channelId:6b0273f8,remoteAddress：/10.11.21.99:55331,data:15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF
+2023-08-15 16:28:46.401 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:6b0273f8
+2023-08-15 16:28:46.402 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:6b0273f8,10.11.21.99
+2023-08-15 16:28:46.402 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:6b0273f8,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:46.403 - INFO  [ntLoopGroup-3-3] tyChannelInboundHandlerAdapter : 离线时执行,channelId:6b0273f8
+2023-08-15 16:28:47.551 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 注册时执行,channelId:a0634a20
+2023-08-15 16:28:47.551 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:a0634a20,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:28:55.179 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=a0634a20,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:28:55.193 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是已知的dtu设备第一次连接,channelId:a0634a20 ,保存通道 ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF, lastDataTime=Tue Aug 15 16:27:22 CST 2023, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 16:28:55.195 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:a0634a20
+2023-08-15 16:29:08.924 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=a0634a20,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:29:15.819 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:29:15.820 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:a0634a20
+2023-08-15 16:29:40.663 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=a0634a20,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:29:40.672 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:29:40.673 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:a0634a20
+2023-08-15 16:29:46.269 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=a0634a20,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:29:46.277 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:29:46.278 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:a0634a20
+2023-08-15 16:29:47.554 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 服务端当read超时, 会调用这个方法,channelId:a0634a20,clientIp:10.11.21.99
+2023-08-15 16:29:47.556 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:a0634a20,10.11.21.99
+2023-08-15 16:29:47.557 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:a0634a20,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:29:47.558 - INFO  [ntLoopGroup-3-4] tyChannelInboundHandlerAdapter : 离线时执行,channelId:a0634a20
+2023-08-15 16:30:01.176 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 注册时执行,channelId:e45067e8
+2023-08-15 16:30:01.177 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 客户端与服务端第一次建立连接时 执行,channelId:e45067e8,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:30:02.781 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:02.783 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,是已知的dtu设备第一次连接,channelId:e45067e8 ,保存通道 ,imei: DtuInfo(fid=CA65F1AADB000001CFC755E975BAF8C0, imei=864452061622070, dtuName=USR-DR302, factory=有人, location=太龙骨料生产车间, remark=老设备，接3个皮带秤, lastData=15 03 1C 00 69 F4 FA 03 AB 00 69 F4 FA 03 AB 00 69 F4 FA 00 00 00 00 FF FF F9 EE 00 00 00 00 61 CF, lastDataTime=Tue Aug 15 16:27:22 CST 2023, heartBeats=null, registered=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30)
+2023-08-15 16:30:02.785 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:05.859 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:05.868 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:05.870 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:10.947 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:10.955 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:10.956 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:11.834 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:11.937 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:11.938 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:12.721 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:12.728 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:12.729 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:13.379 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:13.390 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:13.391 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:13.917 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:13.925 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:13.926 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:14.462 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:14.471 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:14.472 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:14.943 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:14.950 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:14.951 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:15.877 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:15.884 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:15.885 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:16.471 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:16.478 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:16.479 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:17.030 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:17.038 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:17.039 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:17.993 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:18.001 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:18.002 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:18.984 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:18.997 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:18.999 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:20.303 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:20.311 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:20.312 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:23.101 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:23.108 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:23.109 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:26.440 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:26.446 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:26.447 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:28.992 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:29.000 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:29.001 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:30:33.366 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据时,收到消息时被调用,channelId=e45067e8,data=38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:33.374 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 发送数据到数据处理服务,查询不到设备信息! imei:864452061622070,modbusAddr(16进制):38,data:38 36 34 34 35 32 30 36 31 36 32 32 30 37 30
+2023-08-15 16:30:33.375 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 从客户端收到新的数据、读取完成时调用,channelId:e45067e8
+2023-08-15 16:31:01.177 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 服务端当read超时, 会调用这个方法,channelId:e45067e8,clientIp:10.11.21.99
+2023-08-15 16:31:01.178 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行,channelId:e45067e8,10.11.21.99
+2023-08-15 16:31:01.179 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 客户端与服务端 断连时 执行完毕,channel  [ Id:e45067e8,clientIp:10.11.21.99BootNettyChannelInboundHandlerAdapter#0
+2023-08-15 16:31:01.180 - INFO  [ntLoopGroup-3-5] tyChannelInboundHandlerAdapter : 离线时执行,channelId:e45067e8

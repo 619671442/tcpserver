@@ -95,6 +95,7 @@ public class BootNettyChannelInboundHandlerAdapter extends ChannelInboundHandler
                     GetBeanUtil.getBean(DtuInfoService.class).update(temp);
                     // 发送到dtu数据处理服务
                     postDataToServer(data, dtu, now);
+                     ctx.writeAndFlush(Unpooled.buffer().writeBytes("success".getBytes()));//  
                 }
             } else {
                 // 未知通道返回
